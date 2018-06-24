@@ -7,10 +7,15 @@ html,
 body {
     width: 100%;
     color: #1a1a1a;
+    font-family: "Noto Sans Japanese";
 }
 
 header{
     position: fixed;
+}
+
+h2{
+    font-family: "azo-sans-web",sans-serif;
 }
 
 section{
@@ -24,8 +29,13 @@ section.white{
     background-color: #f2f2f2;
 }
 
+h3.course{
+    font-family: "Lucida Grande";
+}
+
 h3.course-name{
     color: #009bdb;
+    font-family: "rift",sans-serif;
 }
 
 
