@@ -18,6 +18,10 @@ h2{
     font-family: "azo-sans-web",sans-serif;
 }
 
+h6{
+    font-family: "Arial",sans-serif;
+}
+
 section{
     overflow: scroll;
     border-bottom: #000 solid 1px;
