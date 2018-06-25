@@ -10,36 +10,121 @@ body {
     font-family: "Noto Sans Japanese";
 }
 
-header{
+header {
     position: fixed;
+    width: 100vw;
+    margin-top: 30px;
 }
 
-h2{
-    font-family: "azo-sans-web",sans-serif;
+h2 {
+    padding-left: 50px;
+    font-size: 54px;
+    font-family: "azo-sans-web", sans-serif;
+    letter-spacing: 2px;
 }
 
-h6{
-    font-family: "Arial",sans-serif;
+h6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 50px;
+    font-size: 26px;
+    font-weight: 100;
+    font-family: "Arial", sans-serif;
 }
 
-section{
+section {
     overflow: scroll;
     border-bottom: #000 solid 1px;
-    padding-top: 200px;
-    height: 100vh;
+    padding: 12vh 6vw;
+    height: 76vh;
 }
 
-section.white{
+section.white {
     background-color: #f2f2f2;
 }
 
-h3.course{
+h1::before {
+    content: "マジ";
+    position: relative;
+    top: -120px;
+    left: 300px;
+    color: #f15a24;
+    font-size: 30px;
+    letter-spacing: 100px;
+}
+
+h1 {
+    position: relative;
+    left: -220px;
+    padding-top: 30vh;
+    font-size: 70px;
+    letter-spacing: 6px;
+}
+
+h1 span {
+    position: relative;
+    bottom: -16px;
+    padding-right: 20px;
+    color: #f15a24;
+    font-size: 120px;
+    letter-spacing: 8px;
+}
+
+section.white p {
+    padding-top: 26px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+section.white p:first-child{
+    padding-top: 15vh;
+}
+
+section.white h3.course {
+    padding-top: 4vh;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 200;
     font-family: "Lucida Grande";
+    letter-spacing: 3px;
 }
 
-h3.course-name{
-    color: #009bdb;
-    font-family: "rift",sans-serif;
+section.white h3.course-name {
+    padding: 16vh 0 0 12vw;
+    font-size: 90px;
+    font-family: "rift", sans-serif;
+    letter-spacing: 2px;
 }
 
+section.bottom {
+    text-align: right;
+}
 
+section.color h4 {
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+section.color p {
+    font-size: 26px;
+    letter-spacing: 1.4px;
+}
+
+section.top h4 {
+    padding-top: 2vh;
+}
+
+section.top p {
+    padding-top: 1vh;
+}
+
+section.bottom h4 {
+    padding-bottom: 2vh
+}
+
+section.bottom p {
+    padding-bottom: 1vh;
+}
