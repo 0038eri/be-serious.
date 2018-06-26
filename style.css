@@ -9,11 +9,11 @@ body {
     font-family: "Noto Sans Japanese";
 }
 
-.white-{
+.white{
     color: #f2f2f2;
 }
 
-.black-{
+.black{
     color: #1a1a1a;
 }
 
@@ -25,14 +25,14 @@ header {
     color: #1a1a1a;
 }
 
-h2 {
+header h2 {
     padding-left: 50px;
     font-size: 54px;
     font-family: "azo-sans-web", sans-serif;
     letter-spacing: 2px;
 }
 
-h6 {
+header h6 {
     position: absolute;
     top: 0;
     right: 0;
@@ -40,6 +40,7 @@ h6 {
     font-size: 26px;
     font-weight: 100;
     font-family: "Arial", sans-serif;
+    letter-spacing: 1.4px;
 }
 
 section {
@@ -49,7 +50,7 @@ section {
     height: 76vh;
 }
 
-h1::before {
+section.description h1::before {
     content: "マジ";
     position: relative;
     top: -120px;
@@ -59,7 +60,8 @@ h1::before {
     letter-spacing: 100px;
 }
 
-h1 {
+section.description h1 {
+    display: inline-block;
     position: relative;
     left: -220px;
     padding-top: 30vh;
@@ -67,7 +69,7 @@ h1 {
     letter-spacing: 6px;
 }
 
-h1 span {
+section.description h1 span {
     position: relative;
     bottom: -16px;
     padding-right: 20px;
@@ -76,7 +78,13 @@ h1 span {
     letter-spacing: 8px;
 }
 
-section.white p {
+section.description img.maj{
+    float: right;
+    height: 600px;
+    padding: 40px 260px 0 0;
+}
+
+section.description p {
     padding-top: 26px;
     text-align: center;
     font-size: 40px;
@@ -84,11 +92,11 @@ section.white p {
     letter-spacing: 10px;
 }
 
-section.white p:first-child{
+section.description p:first-child{
     padding-top: 15vh;
 }
 
-section.white h3.course {
+section.description h4.course {
     text-align: center;
     font-size: 80px;
     font-weight: 200;
@@ -96,7 +104,7 @@ section.white h3.course {
     letter-spacing: 3px;
 }
 
-section.white h3.course-name {
+section.description h3.course {
     display: inline-block;
     padding: 16vh 0 0 12vw;
     font-size: 90px;
@@ -104,7 +112,7 @@ section.white h3.course-name {
     letter-spacing: 2px;
 }
 
-section.white img{
+section.description img.course{
     float: right;
 }
 
@@ -112,13 +120,13 @@ section.bottom {
     text-align: right;
 }
 
-section.color h4 {
+section.case h4 {
     font-size: 80px;
     font-weight: 500;
     letter-spacing: 3px;
 }
 
-section.color p {
+section.case p {
     font-size: 26px;
     letter-spacing: 1.4px;
 }
