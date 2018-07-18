@@ -4,19 +4,27 @@
 }
 
 @font-face {
-    font-family: "Din-Font";
-    src: local("Din-Font") url('DIN-Condensed-Bold');
+    font-family: "DIN Condensed";
+    src: local("./fonts/Din Font") url('./fonts//DIN Condensed Bold');
 }
 
 html,
 body {
     width: 100%;
-    font-family: "Din-Font", "Noto Sans Japanese";
+    font-family: "Din Condensed", "Noto Sans Japanese";
 }
 
 #serious {
     height: 100vh;
     background-color: #f2f2f2;
+}
+
+#serious h1{
+    color: #d6d6d6;
+}
+
+#serious h2{
+    color: #333333;
 }
 
 #message {
