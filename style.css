@@ -16,35 +16,120 @@ body {
 
 #serious {
     height: 100vh;
+    text-align: center;
     background-color: #f2f2f2;
 }
 
-#serious h1{
+#serious h1 {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    font-size: 300px;
     color: #d6d6d6;
 }
 
-#serious h2{
+#serious .h2 {
+    display: inline-block;
+    z-index: 100;
+    position: relative;
+    top: -160px;
+    width: 1074px;
+    letter-spacing: 4px;
     color: #333333;
+}
+
+#serious .m {
+    float: left;
+    width: 560px;
+}
+
+#serious h2.m {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    font-size: 50px;
+    letter-spacing: 180px;
+}
+
+#serious h2.l {
+    display: inline-block;
+    font-size: 200px;
+    letter-spacing: 30px;
+}
+
+#serious h2.s {
+    float: right;
+    display: inline-block;
+    position: relative;
+    left: -40px;
+    padding: 140px 0;
+    font-size: 100px;
 }
 
 #message {
     height: 100vh;
+    text-align: center;
     background-color: #0062ff;
+}
+
+#message h3 {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    font-size: 300px;
+    color: #1a82ff;
+}
+
+#message .sentence {
+    z-index: 100;
+    position: relative;
+    top: -130px;
+    width: 1300px;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 100px;
+    color: #f2f2f2;
+}
+
+#message .sentence p {
+    display: inline-block;
 }
 
 #course {
     height: 100vh;
+    text-align: center;
+    font-family: "rift", sans-serif;
 }
 
-.name {
+#course .name {
     float: left;
     margin: 0;
     width: 50vw;
     height: 100vh;
+    letter-spacing: 4px;
     background-color: #2c74dd;
 }
 
-.c_image {
+#course .name h3 {
+    position: relative;
+    top: 353px;
+    margin: auto;
+    font-size: 100px;
+    color: #f2f2f2;
+}
+
+#course .name h4 {
+    display: inline-block;
+    z-index: 100;
+    margin: auto;
+    font-size: 300px;
+    color: #f2f2f2;
+    opacity: 0.2;
+}
+
+#course .image {
     float: right;
     width: 50vw;
     height: 100vh;
@@ -53,28 +138,40 @@ body {
 
 #section {
     width: 100vh;
+    color: #333333;
 }
 
-.sentence {
+#section .sentence {
     width: 50vw;
     height: 100vh;
     background-color: #f2f2f2;
 }
 
-.image {
+#section .sentence h6{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+#section .sentence p {
+    font-family: "Noto Sans Japanese";
+}
+
+#section .image {
     width: 50vw;
     height: 100vh;
 }
 
-.left {
+#section .left {
     float: left;
+    text-align: right;
 }
 
-.right {
+#section .right {
     float: right;
+    text-align: left;
 }
 
-.clear {
+#section .clear {
     clear: both;
 }
 
@@ -98,6 +195,22 @@ body {
     background-color: #dd2cd1;
 }
 
+#experience h6 span.pink{
+    color: #dd2cd1;
+}
+
+#shine h6 span.green{
+    color: #2cdd3d;
+}
+
+#creative h6 span.purple{
+    color: #8e2cdb;
+}
+
+#title h6 span.orange{
+    color: #f15a24;
+}
+
 #shine .image {
     background-color: #2cdd3d;
 }
@@ -108,4 +221,11 @@ body {
 
 #title .image {
     background-color: #f15a24;
+}
+
+#section h1{
+    opacity: 0.3;
+}
+.purple {
+    
 }
