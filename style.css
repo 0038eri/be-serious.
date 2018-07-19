@@ -131,9 +131,11 @@ body {
     margin: auto;
     font-size: 100px;
     color: #f2f2f2;
-/*    opacity: 0;*/
-    transform: translateX(-100%);
-    transition: 0.9s;
+/*
+    opacity: 0;
+    transform: translateY(20%);
+*/
+    transition: 0.7s;
 }
 
 #course .name h4 {
