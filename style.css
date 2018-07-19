@@ -41,8 +41,8 @@ body {
     letter-spacing: 4px;
     color: #333333;
     opacity: 0;
-    transform: translateY(4%);
-    transition: 0.9s;
+    transform: translateY(8%);
+    transition: 0.7s;
 }
 
 #serious .m {
@@ -107,7 +107,7 @@ body {
     display: inline-block;
     opacity: 0;
     transform: translateY(30%);
-    transition: 0.9s;
+    transition: 0.7s;
 }
 
 #course {
