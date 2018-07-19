@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/iwz8cqt.css">
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -29,11 +29,11 @@
     <section id="message">
         <h3>MESSAGE</h3>
         <div class="sentence">
-            <p>アオいハルには、決まりなんてない。</p>
-            <p>この色をナニ色に染めるかは、きみ次第。</p>
-            <p>ともだちと輝く色でもいい。</p>
-            <p>初恋の甘酸っぱい色でもいい。</p>
-            <p>けれど一緒にハルを、本気で突き詰める色に染めないか。
+            <p class="01">アオいハルには、決まりなんてない。</p>
+            <p class="02">この色をナニ色に染めるかは、きみ次第。</p>
+            <p class="03">ともだちと輝く色でもいい。</p>
+            <p class="04">初恋の甘酸っぱい色でもいい。</p>
+            <p class="05">けれど一緒にハルを、本気で突き詰める色に染めないか。
             </p>
         </div>
     </section>
@@ -83,7 +83,9 @@
         </section>
 
         <section id="title">
-            <div class="image left"><h2>Copyright &copy; 2018 Eri Osawa All Rights Reserved.</h2></div>
+            <div class="image left">
+                <h2>Copyright &copy; 2018 Eri Osawa All Rights Reserved.</h2>
+            </div>
             <div class="sentence right">
                 <h6>一生の<br><span class="orange">肩書き</span><br>ができる。</h6>
                 <p>部活で大会に出るのと同じように、<br>アプリ・ゲームのリリース、WEBサイトの公開、<br>大会への挑戦は、一生自慢できる肩書きになる。<br>AO入試などではこれらの挑戦は、直接活きてくる。
@@ -94,6 +96,70 @@
 
     </div>
 
+    <script>
+        $(function() {
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $("#serious h1").css({
+                        "opacity": "1.0",
+                        "transform": "translateY(0%)"
+                    });
+                    setTimeout(beMaji, 300);
+                }
+                if ($(this).scrollTop() > 700) {
+                    $("#message .01").css({
+                        "opacity": "1.0",
+                        "transform": "translateY(0%)"
+                    });
+                    setTimeout(paragraph02, 600);
+                    setTimeout(paragraph03, 1200);
+                    setTimeout(paragraph04, 1800);
+                    setTimeout(paragraph05, 2400);
+                }
+            });
+
+            function beMaji() {
+                $("#serious .h2").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+                });
+            }
+
+            function paragraph02() {
+                $("#message .02").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+
+                });
+            }
+
+            function paragraph03() {
+                $("#message .03").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+
+                });
+            }
+
+            function paragraph04() {
+                $("#message .04").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+
+                });
+            }
+
+            function paragraph05() {
+                $("#message .05").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+
+                });
+            }
+
+        });
+    </script>
 
 </body>
 
