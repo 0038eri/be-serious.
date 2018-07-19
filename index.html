@@ -101,26 +101,46 @@
 
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 0) {
-                    $("#serious h1").css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                    setTimeout(beMaji, 300);
+                    beSerious();
+                    setTimeout(beMaji, 750);
                 }
                 if ($(this).scrollTop() > 700) {
-                    $("#message .01").css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                    setTimeout(paragraph02, 600);
-                    setTimeout(paragraph03, 1200);
-                    setTimeout(paragraph04, 1800);
-                    setTimeout(paragraph05, 2400);
+                    message();
+                    setTimeout(paragraph01, 1200)
+                    setTimeout(paragraph02, 2100);
+                    setTimeout(paragraph03, 3000);
+                    setTimeout(paragraph04, 3900);
+                    setTimeout(paragraph05, 4800);
+                }
+                if ($(this).scrollTop() > 1400) {
+                    coursenameUp();
+                    setTimeout(courseUp, 700);
                 }
             });
 
+            function beSerious() {
+                $("#serious h1").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+                });
+            }
+
             function beMaji() {
                 $("#serious .h2").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+                });
+            }
+
+            function message() {
+                $("#message h3").css({
+                    "opacity": "1.0",
+                    "transform": "translateY(0%)"
+                });
+            }
+
+            function paragraph01() {
+                $("#message .01").css({
                     "opacity": "1.0",
                     "transform": "translateY(0%)"
                 });
@@ -155,6 +175,19 @@
                     "opacity": "1.0",
                     "transform": "translateY(0%)"
 
+                });
+            }
+
+            function coursenameUp() {
+                $("#course h4").css({
+                    "opacity": "0.2",
+                    "transform": "translateY(0%)"
+                }) 
+            }
+
+            function courseUp() {
+                $("#course h3").css({
+                    "transform": "translateX(0%)"
                 });
             }
 

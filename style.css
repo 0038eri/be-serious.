@@ -27,9 +27,9 @@ body {
     font-size: 300px;
     color: #d6d6d6;
     opacity: 0;
-    transform: translateY(10%);
-    transition: 0.6s;
-    
+    transform: translateY(4%);
+    transition: 0.7s;
+
 }
 
 #serious .h2 {
@@ -41,8 +41,8 @@ body {
     letter-spacing: 4px;
     color: #333333;
     opacity: 0;
-    transform: translateY(20%);
-    transition: 0.6s;
+    transform: translateY(4%);
+    transition: 0.9s;
 }
 
 #serious .m {
@@ -86,6 +86,9 @@ body {
     top: 150px;
     font-size: 300px;
     color: #1a82ff;
+    opacity: 0;
+    transform: translateY(4%);
+    transition: 0.7s;
 }
 
 #message .sentence {
@@ -103,8 +106,8 @@ body {
 #message .sentence p {
     display: inline-block;
     opacity: 0;
-    transform: translateY(40%);
-    transition: 0.6s;
+    transform: translateY(30%);
+    transition: 0.9s;
 }
 
 #course {
@@ -128,6 +131,9 @@ body {
     margin: auto;
     font-size: 100px;
     color: #f2f2f2;
+/*    opacity: 0;*/
+    transform: translateX(-100%);
+    transition: 0.9s;
 }
 
 #course .name h4 {
@@ -136,7 +142,9 @@ body {
     margin: auto;
     font-size: 300px;
     color: #f2f2f2;
-    opacity: 0.2;
+    opacity: 0;
+    transform: translateY(4%);
+    transition: 0.7s;
 }
 
 #course .image {
@@ -247,7 +255,7 @@ body {
     background-color: #f15a24;
 }
 
-#title h2{
+#title h2 {
     position: relative;
     bottom: -780px;
     text-align: center;
@@ -262,6 +270,6 @@ body {
     color: #f15a24;
 }
 
-#section .sentence img{
+#section .sentence img {
     position: relative;
 }
