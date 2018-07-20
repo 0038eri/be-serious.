@@ -45,7 +45,7 @@
             <h4>APP</h4>
         </div>
 
-        <div class="image"><img class="app" src="" alt=""><img class="web" src="" alt=""><img class="game" src="" alt=""></div>
+        <div class="image"><img class="app" src="img/app.png" alt=""><img class="web" src="img/web.png" alt=""><img class="game" src="img/game.png" alt=""></div>
 
     </section>
 
@@ -99,8 +99,6 @@
     <script>
         $(function() {
 
-            var courseCount;
-
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 0) {
                     beSerious();
@@ -114,11 +112,7 @@
                     setTimeout(paragraph04, 2800);
                     setTimeout(paragraph05, 3500);
                 }
-                if ($(this).scrollTop() > 1400) {
-                    coursenameUp();
-                    //                    setTimeout(courseUp, 700);
-                    setInterval(markupTimer, 5000);
-                }
+                if ($(this).scrollTop() > 1400) {}
             });
 
             function beSerious() {
@@ -195,53 +189,141 @@
             //                });
             //            }
 
-            function markupTimer() {
-                switch (courseCount) {
-                    case 0:
-                        markupApp();
-                        var courseCount++;
-                        markupTimer();
-                        break;
-                    case 1:
-                        markupWeb();
-                        var courseCount++;
-                        markupTimer();
-                        break;
-                    case 2:
-                        markupGame();
-                        courseCount = 0;
-                        markupTimer();
-                        break;
-                    default:
-                        break;
-                }, 5000);
-
-
-            function markupApp() {
-                $("#course h3").html("<h3>APP</h3>");
-                $("#course h4").html("<h4>APP</h4>");
-                $("#couse .name").css({
-                    "background-color": "#2c74dd"
-                }, 700);
-            }
-
-            function markupWeb() {
-                $("#course h3").html("<h3>WEB</h3>");
-                $("#course h4").html("<h4>WEB</h4>").css({
-                    "opacity": "0.4"
-                }, 700);
-                $("#couse .name").css({
-                    "background-color": "#e0d62b"
-                }, 700);
-            }
-
-            function markupGame() {
-                $("#course h3").html("<h3>GAME</h3>");
-                $("#course h4").html("<h4>GAME</h4>");
-                $("#couse .name").css({
-                    "background-color": "#e02b2b"
-                }, 700);
-            }
+            //            var courseCount = 1;
+            //
+            //            $("#course img").css({
+            //                "display": "none"
+            //            });
+            //
+            //            var courseTimer;
+            //
+            //            function startTimer() {
+            //                courseTimer = setInterval(function() {
+            //                    switch (courseCount) {
+            //                        case 0:
+            //                            markupApp();
+            //                            courseCount++;
+            //                            setTimeout(markdownApp, 5000);
+            //                            break;
+            //                        case 1:
+            //                            markupWeb();
+            //                            courseCount++;
+            //                            setTimeout(markdownWeb, 5000);
+            //                            break;
+            //                        case 2:
+            //                            markupGame();
+            //                            courseCount = 0;
+            //                            setTimeout(markdownGame, 5000);
+            //                            break;
+            //                        default:
+            //                            break;
+            //                    }
+            //                }, 5000);
+            //            }
+            //
+            //            function stopTimer() {
+            //                clearInterval(courseTimer);
+            //            }
+            //
+            //            startTimer();
+            //
+            //            function markupApp() {
+            //                $("#course h3").css({
+            //                    "display": "block"
+            //                });
+            //                $("#course h4").css({
+            //                    "display": "block"
+            //                });
+            //                $("#course .app").css({
+            //                    "display": "block"
+            //                });
+            //                $("#couse .name").css({
+            //                    "background-color": "#2c74dd"
+            //                });
+            //            }
+            //
+            //            function markdownApp() {
+            //                $("#course h3").css({
+            //                    "display": "none"
+            //                });
+            //                $("#course h4").css({
+            //                    "display": "none",
+            //                    "opacity": "0.4"
+            //                });
+            //                $("#course").html("<h3>WEB</h3>");
+            //                $("#course").html("<h4>WEB</h4>");
+            //                $("#course .app").css({
+            //                    "display": "none"
+            //                });
+            //                $("#couse .name").css({
+            //                    "background-color": "#f2f2f2"
+            //                });
+            //            }
+            //
+            //            function markupWeb() {
+            //                $("#course h3").css({
+            //                    "display": "block"
+            //                });
+            //                $("#course h4").css({
+            //                    "display": "block"
+            //                });
+            //                $("#course .web").css({
+            //                    "display": "block"
+            //                });
+            //                $("#couse .name").css({
+            //                    "background-color": "#e0d62b"
+            //                });
+            //            }
+            //
+            //            function markdownWeb() {
+            //                $("#course h3").css({
+            //                    "display": "none"
+            //                });
+            //                $("#course h4").css({
+            //                    "display": "none",
+            //                    "opacity": "0.2"
+            //                });
+            //                $("#course").html("<h3>GAME</h3>");
+            //                $("#course").html("<h4>GAME</h4>");
+            //                $("#course .web").css({
+            //                    "display": "none"
+            //                });
+            //                $("#couse .name").css({
+            //                    "background-color": "#f2f2f2"
+            //                });
+            //            }
+            //
+            //            function markupGame() {
+            //                $("#course h3").css({
+            //                    "display": "block"
+            //                });
+            //                $("#course h4").css({
+            //                    "display": "block"
+            //                });
+            //                $("#course .game").css({
+            //                    "display": "block"
+            //                });
+            //                $("#couse .name").css({
+            //                    "background-color": "#e02b2b"
+            //                });
+            //            }
+            //
+            //            function markdownGame() {
+            //                $("#course h3").css({
+            //                    "display": "none"
+            //                });
+            //                $("#course h4").css({
+            //                    "display": "none"
+            //                });
+            //                $("#course").html("<h3>APP</h3>");
+            //                $("#course").html("<h4>APP</h4>");
+            //                $("#course .web").css({
+            //                    "display": "none"
+            //                });
+            //                $("#couse .name").css({
+            //                    "background-color": "#f2f2f2"
+            //                });
+            //            }
 
         });
     </script>
