@@ -25,6 +25,7 @@ body {
     position: relative;
     top: 150px;
     font-size: 300px;
+    letter-spacing: 10px;
     color: #d6d6d6;
     opacity: 0;
     transform: translateY(4%);
@@ -80,11 +81,12 @@ body {
     background-color: #0062ff;
 }
 
-#message h3 {
+#message h1 {
     display: inline-block;
     position: relative;
-    top: 150px;
+    top: 100px;
     font-size: 300px;
+    letter-spacing: 10px;
     color: #1a82ff;
     opacity: 0;
     transform: translateY(4%);
@@ -94,20 +96,26 @@ body {
 #message .sentence {
     z-index: 100;
     position: relative;
-    top: -150px;
-    width: 1300px;
+    top: -200px;
+    max-width: 1510px;
+    min-width: 1300px;
     margin: auto;
-    font-size: 50px;
-    font-weight: 100;
     line-height: 100px;
     color: #f2f2f2;
 }
 
-#message .sentence p {
+#message .sentence h3 {
     display: inline-block;
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 8px;
     opacity: 0;
     transform: translateY(30%);
     transition: 0.7s;
+}
+
+#message h3.p04 {
+    padding-left: 56px;
 }
 
 #course {
@@ -116,7 +124,7 @@ body {
     font-family: "rift", sans-serif;
 }
 
-#course .name {
+#course .color {
     float: left;
     margin: 0;
     width: 50vw;
@@ -125,29 +133,34 @@ body {
     background-color: #2c74dd;
 }
 
-#course .name h3 {
-    position: relative;
-    top: 353px;
+#course .color h1 {
+    display: inline-block;
     margin: auto;
     font-size: 100px;
     color: #f2f2f2;
-/*
-    opacity: 0;
-    transform: translateY(20%);
-*/
+    text-align: center;
+    vertical-align: middle;
+    /*    opacity: 0;*/
     transition: 0.7s;
 }
 
-#course .name h4 {
-    display: inline-block;
+/*
+#course h2 {
     z-index: 100;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 320px;
     margin: auto;
     font-size: 300px;
+    text-align: center;
     color: #f2f2f2;
-    opacity: 0;
+    opacity: 0.4;
     transform: translateY(4%);
     transition: 0.7s;
 }
+*/
 
 #course .image {
     float: right;
@@ -156,7 +169,7 @@ body {
     background-color: #f2f2f2;
 }
 
-#course img{
+#course img {
     display: none;
     width: 300px;
 }
@@ -173,12 +186,12 @@ body {
     background-color: #f2f2f2;
 }
 
-#section .sentence h6 {
+#section .sentence h1 {
     z-index: 100;
     position: relative;
-    padding: 60px;
     font-size: 70px;
     font-weight: 500;
+    letter-spacing: 10px;
 }
 
 #section .sentence span {
@@ -188,15 +201,16 @@ body {
 #section .sentence p {
     z-index: 100;
     position: relative;
-    padding: 0 60px;
     font-size: 18px;
     font-weight: 300;
     font-family: "Noto Sans Japanese";
 }
 
-#section .image {
-    width: 50vw;
-    height: 100vh;
+#section .sentence img {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
 }
 
 #section .left {
@@ -207,6 +221,35 @@ body {
 #section .right {
     float: right;
     text-align: left;
+}
+
+#section .left h1 {
+    padding: 60px 50px 60px 0;
+}
+
+#section .right h1 {
+    padding: 60px 0 60px 50px;
+}
+
+#section .left p {
+    padding-right: 50px;
+}
+
+#section .right p {
+    padding-left: 50px;
+}
+
+#section .left img {
+    left: 0;
+}
+
+#section .right img {
+    right: 0;
+}
+
+#section .image {
+    width: 50vw;
+    height: 100vh;
 }
 
 #section .clear {
@@ -234,7 +277,7 @@ body {
     width: 100vw;
 }
 
-#experience h6 span.pink {
+#experience h1 span.pink {
     color: #dd2cd1;
 }
 
@@ -246,11 +289,11 @@ body {
     background-color: #2cdd3d;
 }
 
-#shine h6 span.green {
+#shine h1 span.green {
     color: #2cdd3d;
 }
 
-#creative h6 span.purple {
+#creative h1 span.purple {
     color: #8e2cdb;
 }
 
@@ -273,10 +316,17 @@ body {
     color: #f2f2f2;
 }
 
-#title h6 span.orange {
+#title h1 span.orange {
     color: #f15a24;
 }
 
-#section .sentence img {
-    position: relative;
-}
+@media screen and (max-width: 1300px) {}
+
+/* タブレット */
+
+@media screen and (max-width: 1100px) {}
+
+
+/* スマートフォン */
+
+@media screen and (max-width: 500px) {}
