@@ -71,7 +71,7 @@ body {
     display: inline-block;
     position: relative;
     left: -40px;
-    padding: 140px 0;
+    bottom: -140px;
     font-size: 100px;
 }
 
@@ -185,8 +185,11 @@ body {
 }
 
 #section .sentence h1 {
+    display: inline-block;
     z-index: 100;
     position: relative;
+    top: 60px;
+    bottom: 60px;
     font-size: 70px;
     font-weight: 500;
     letter-spacing: 10px;
@@ -197,8 +200,10 @@ body {
 }
 
 #section .sentence p {
+    display: inline-block;
     z-index: 100;
     position: relative;
+    top: 120px;
     font-size: 18px;
     font-weight: 300;
     font-family: "Noto Sans Japanese";
@@ -222,19 +227,19 @@ body {
 }
 
 #section .left h1 {
-    padding: 60px 50px 60px 0;
+    right: 50px;
 }
 
 #section .right h1 {
-    padding: 60px 0 60px 50px;
+    left: 50px;
 }
 
 #section .left p {
-    padding-right: 50px;
+    right: 50px;
 }
 
 #section .right p {
-    padding-left: 50px;
+    left: 50px;
 }
 
 #section .left img {
@@ -344,31 +349,37 @@ body {
     }
 
     #section .sentence h1 {
+        top: 80px;
+        bottom: 70px;
         font-size: 50px;
     }
 
     #section .sentence span {
         font-size: 110px;
     }
+    
+    #section .sentence p{
+        top: 140px;
+    }
 
     #section .sentence img {
-        width: 260px;
+        width: 300px;
     }
 
     #section .left h1 {
-        padding: 80px 40px 70px 0;
+        right: 40px
     }
 
     #section .right h1 {
-        padding: 80px 0 70px 40px;
+        left: 40px;
     }
 
     #section .left p {
-        padding-right: 40px;
+        right: 40px;
     }
 
     #section .right p {
-        padding-right: 40px;
+        left: 40px;
     }
 
     #title h2 {
