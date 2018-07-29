@@ -38,7 +38,7 @@ body {
     z-index: 100;
     position: relative;
     top: -160px;
-    width: 1074px;
+    /*    width: 1074px;*/
     letter-spacing: 4px;
     color: #333333;
     opacity: 0;
@@ -98,7 +98,7 @@ body {
     position: relative;
     top: -200px;
     max-width: 1510px;
-    min-width: 1300px;
+    min-width: 1301px;
     margin: auto;
     line-height: 100px;
     color: #f2f2f2;
@@ -109,14 +109,12 @@ body {
     font-size: 50px;
     font-weight: 200;
     letter-spacing: 8px;
+    text-align: center;
     opacity: 0;
     transform: translateY(30%);
     transition: 0.7s;
 }
 
-#message h3.p04 {
-    padding-left: 56px;
-}
 
 #course {
     height: 100vh;
@@ -320,7 +318,65 @@ body {
     color: #f15a24;
 }
 
-@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 1300px) {
+
+    #serious h1 {
+        font-size: 260px;
+    }
+
+    #serious .h2 {
+        top: -130px;
+    }
+
+    #message h1 {
+        font-size: 260px;
+    }
+
+    #message .sentence {
+        top: -150px;
+        max-width: 1217px;
+        min-width: 1101px;
+    }
+
+    #message .sentence h3 {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+    #section .sentence h1 {
+        font-size: 50px;
+    }
+
+    #section .sentence span {
+        font-size: 110px;
+    }
+
+    #section .sentence img {
+        width: 260px;
+    }
+
+    #section .left h1 {
+        padding: 80px 40px 70px 0;
+    }
+
+    #section .right h1 {
+        padding: 80px 0 70px 40px;
+    }
+
+    #section .left p {
+        padding-right: 40px;
+    }
+
+    #section .right p {
+        padding-right: 40px;
+    }
+
+    #title h2 {
+        bottom: -790px;
+        font-size: 16px;
+    }
+
+}
 
 /* タブレット */
 
