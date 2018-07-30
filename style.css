@@ -210,15 +210,27 @@ body {
 }
 
 #section .sentence img {
-    width: 400px;
+    display: inline-block;
     position: absolute;
     bottom: 0;
+    width: 400px;
     overflow: hidden;
 }
 
-#section .left {
-    float: left;
-    text-align: right;
+#section .image {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+}
+
+#section .image img {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    margin: auto;
 }
 
 #section .right {
@@ -226,15 +238,16 @@ body {
     text-align: left;
 }
 
-#section .left h1 {
-    right: 50px;
+#section .left {
+    float: left;
+    text-align: right;
 }
 
 #section .right h1 {
     left: 50px;
 }
 
-#section .left p {
+#section .left h1 {
     right: 50px;
 }
 
@@ -242,17 +255,16 @@ body {
     left: 50px;
 }
 
-#section .left img {
-    left: 0;
+#section .left p {
+    right: 50px;
 }
 
-#section .right img {
+#section img.sr-img {
     right: 0;
 }
 
-#section .image {
-    width: 50vw;
-    height: 100vh;
+#section img.sl-img {
+    left: 0;
 }
 
 #section .clear {
@@ -357,13 +369,17 @@ body {
     #section .sentence span {
         font-size: 110px;
     }
-    
-    #section .sentence p{
+
+    #section .sentence p {
         top: 140px;
     }
 
     #section .sentence img {
         width: 300px;
+    }
+    
+    #section .image img {
+        width: 500px;
     }
 
     #section .left h1 {
