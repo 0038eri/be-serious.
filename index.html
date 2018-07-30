@@ -103,15 +103,15 @@
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 0) {
                     beSerious();
-                    setTimeout(beMaji, 750);
+                    setTimeout(beMaji, 200);
                 }
                 if ($(this).scrollTop() > 700) {
                     message();
-                    setTimeout(paragraph01, 700)
-                    setTimeout(paragraph02, 1400);
-                    setTimeout(paragraph03, 2100);
-                    setTimeout(paragraph04, 2800);
-                    setTimeout(paragraph05, 3500);
+                    setTimeout(paragraph01, 200)
+                    setTimeout(paragraph02, 400);
+                    setTimeout(paragraph03, 600);
+                    setTimeout(paragraph04, 800);
+                    setTimeout(paragraph05, 1000);
                 }
                 if ($(this).scrollTop() > 1400) {}
             });
