@@ -1,17 +1,17 @@
-(function () {
+$(function () {
 
     window.onload = function () {
         section01Anm();
     }
 
     $(window).scroll(function () {
-        if ($(this).scrollTop > 0) {
+        if ($(this).scrollTop == 0) {
             section01Anm();
         }
-        if ($(this).scrollTop > 700) {
+        if ($(this).scrollTop == 700) {
             section02Anm();
         }
-        if ($(this).scrollTop > 1400) {}
+        if ($(this).scrollTop == 1400) {}
     });
 
     // セクション1つめアニメーション
