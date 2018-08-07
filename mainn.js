@@ -4,14 +4,11 @@ $(function () {
         section01Anm();
     }
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop == 0) {
-            section01Anm();
-        }
-        if ($(this).scrollTop == 700) {
-            section02Anm();
-        }
-        if ($(this).scrollTop == 1400) {}
+    $.scrollify({
+        section: ".content",
+        scrollSpeed: 1600,
+        scrollbars: false,
+        updateHash: false
     });
 
     // セクション1つめアニメーション
