@@ -15,8 +15,11 @@ body {
 }
 
 .active{
-    transition: 0.5s;
-    opacity: 1.0;
+    display: block;
+}
+
+.hide{
+    display: none;
 }
 
 #serious {
@@ -49,6 +52,7 @@ body {
     opacity: 0;
     transform: translateY(16%);
     transition: 0.9s;
+    transition-delay: 0.2s;
 }
 
 #serious .m {
@@ -120,6 +124,25 @@ body {
     transition: 0.7s;
 }
 
+#message .sentence .p01 {
+    transition-delay: 0.2s;
+}
+
+#message .sentence .p02 {
+    transition-delay: 0.4s;
+}
+
+#message .sentence .p03 {
+    transition-delay: 0.6s;
+}
+
+#message .sentence .p04 {
+    transition-delay: 0.8s;
+}
+
+#message .sentence .p05 {
+    transition-delay: 1.0s;
+}
 
 #course {
     height: 100vh;
@@ -382,7 +405,7 @@ body {
     #section .sentence img {
         width: 300px;
     }
-    
+
     #section .image img {
         width: 500px;
     }

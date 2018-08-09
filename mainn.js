@@ -1,88 +1,62 @@
 $(function () {
 
-            window.onload = function () {
-                section01Anm();
+    $('.effect').css({
+        "opacity": "0"
+    });
+
+    //    window.onload = function () {
+    //        section01Anm();
+    //    }
+
+    $.scrollify({
+        section: ".content",
+        scrollSpeed: 1600,
+        scrollbars: false,
+        updateHash: false
+    });
+
+    var id;
+    $('.content').waypoint(function (direction) {
+        var activePoint = $(this.element);
+        if (direction === 'down') {
+            activePoint.addClass('active');
+            id = $(this) a.attr('id');
+            switch (id) {
+                case "serious":
+                    section01Anm();
+                    break; 
             }
+        } else { //scroll up
+            activePoint.removeClass('active');
+        }
+    }, {
+        offset: '0%'
+    });
 
-            $.scrollify({
-                section: ".content",
-                scrollSpeed: 1600,
-                scrollbars: false,
-                updateHash: false
-            });
+    // セクション1つめアニメーション
 
-                // セクション1つめアニメーション
-            
-                function beSerious() {
-                    $('#serious h1').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function honkiNiNarou() {
-                    $('#serious .h2').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function section01Anm() {
-                    beSerious();
-                    setTimeout(honkiNiNarou, 200);
-                }
-            
-                // セクション2つめのアニメーション
-            
-                function message() {
-                    $('#message h1').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function paragraph01() {
-                    $('#message .p01').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function paragraph02() {
-                    $('#message .p02').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function paragraph03() {
-                    $('#message .p03').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function paragraph04() {
-                    $('#message .p04').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function paragraph05() {
-                    $('#message .p05').css({
-                        "opacity": "1.0",
-                        "transform": "translateY(0%)"
-                    });
-                }
-            
-                function section02Anm() {
-                    message();
-                    setTimeout(paragraph01, 200);
-                    setTimeout(paragraph02, 400);
-                    setTimeout(paragraph03, 600);
-                    setTimeout(paragraph04, 800);
-                    setTimeout(paragraph05, 1000);
-                }
-            
-            });
+    function section01Anm() {
+        $('#serious h1').css({
+            "opacity": "1.0",
+            "transform": "translateY(0%)"
+        });
+        $('#serious .h2').css({
+            "opacity": "1.0",
+            "transform": "translateY(0%)"
+        });
+    }
+
+    // セクション2つめのアニメーション
+
+    function section02Anm() {
+        $('#message h1').css({
+            "opacity": "1.0",
+            "transform": "translateY(0%)"
+        });
+        $('#message h3').css({
+            "opacity": "1.0",
+            "transform": "translateY(0%)"
+        });
+    }
+
+});
