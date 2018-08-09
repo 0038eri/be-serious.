@@ -15,23 +15,28 @@ $(function () {
         updateHash: false
     });
 
-    var id;
-    $('.content').waypoint(function (direction) {
-        var activePoint = $(this.element);
-        if (direction === 'down') {
-            activePoint.addClass('active');
-            id = $(this) a.attr('id');
-            switch (id) {
-                case "serious":
-                    section01Anm();
-                    break; 
-            }
-        } else { //scroll up
-            activePoint.removeClass('active');
-        }
-    }, {
-        offset: '0%'
-    });
+    //    var id;
+    //    $('.content').waypoint(function (direction) {
+    //        var activePoint = $(this.element);
+    //        if (direction === 'down') {
+    //            activePoint.addClass('active');
+    //            id = $(activePoint) a.attr('id');
+    //            switch (id) {
+    //                case "serious":
+    //                    section01Anm();
+    //                    break;
+    //                case "message":
+    //                    section02Anm();
+    //                    break;
+    //                default:
+    //                    break;
+    //            }
+    //        } else { //scroll up
+    //            activePoint.removeClass('active');
+    //        }
+    //    }, {
+    //        offset: '0%'
+    //    });
 
     // セクション1つめアニメーション
 
@@ -59,4 +64,4 @@ $(function () {
         });
     }
 
-});
+}); 
