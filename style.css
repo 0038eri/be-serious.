@@ -27,7 +27,10 @@ body {
     font-size: 300px;
     letter-spacing: 10px;
     color: #d6d6d6;
+    opacity: 0;
+    transform: translateY(8%);
     transition: 0.7s;
+    transition-delay: 0.4s;
 }
 
 #serious .h2 {
@@ -38,8 +41,10 @@ body {
     /*    width: 1074px;*/
     letter-spacing: 4px;
     color: #333333;
+    opacity: 0;
+    transform: translateY(16%);
     transition: 0.7s;
-    transition-delay: 0.2s;
+    transition-delay: 0.6s;
 }
 
 #serious .m {
@@ -84,9 +89,10 @@ body {
     font-size: 300px;
     letter-spacing: 10px;
     color: #1a82ff;
-/*    opacity: 0;*/
+    opacity: 0;
     transform: translateY(4%);
-    transition: 0.5s;
+    transition: 0.7s;
+    transition-delay: 0.4s;
 }
 
 #message .sentence {
@@ -106,29 +112,29 @@ body {
     font-weight: 200;
     letter-spacing: 8px;
     text-align: center;
-/*    opacity: 0;*/
+    opacity: 0;
     transform: translateY(30%);
     transition: 0.7s;
 }
 
 #message .sentence .p01 {
-    transition-delay: 0.2s;
+    transition-delay: 0.5s;
 }
 
 #message .sentence .p02 {
-    transition-delay: 0.4s;
+    transition-delay: 0.7s;
 }
 
 #message .sentence .p03 {
-    transition-delay: 0.6s;
+    transition-delay: 0.9s;
 }
 
 #message .sentence .p04 {
-    transition-delay: 0.8s;
+    transition-delay: 1.1s;
 }
 
 #message .sentence .p05 {
-    transition-delay: 1.0s;
+    transition-delay: 1.3s;
 }
 
 #course {
@@ -139,6 +145,7 @@ body {
 
 #course .color {
     float: left;
+    position: relative;
     margin: 0;
     width: 50vw;
     height: 100vh;
@@ -148,43 +155,40 @@ body {
 
 #course .color h1 {
     display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     margin: auto;
     font-size: 100px;
     color: #f2f2f2;
     text-align: center;
     vertical-align: middle;
-    /*    opacity: 0;*/
-    transition: 0.5s;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    transition: 0.7s;
+    transition-delay: 0.4s;
 }
 
-/*
-#course h2 {
-    z-index: 100;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 320px;
-    margin: auto;
-    font-size: 300px;
-    text-align: center;
-    color: #f2f2f2;
-    opacity: 0.4;
-    transform: translateY(4%);
-    transition: 0.7s;
-}
-*/
 
 #course .image {
     float: right;
+    position: relative;
     width: 50vw;
     height: 100vh;
     background-color: #f2f2f2;
+    
 }
 
 #course img {
-    display: none;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 300px;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: 0.7s;
+    transition-delay: 0.8s;
 }
 
 #section {
@@ -365,7 +369,7 @@ body {
     }
 
     #message .sentence {
-        top: -150px;
+        top: -140px;
         max-width: 1217px;
         min-width: 1101px;
     }
