@@ -118,23 +118,23 @@ body {
 }
 
 #message .sentence .p01 {
-    transition-delay: 0.5s;
-}
-
-#message .sentence .p02 {
     transition-delay: 0.7s;
 }
 
-#message .sentence .p03 {
+#message .sentence .p02 {
     transition-delay: 0.9s;
 }
 
-#message .sentence .p04 {
+#message .sentence .p03 {
     transition-delay: 1.1s;
 }
 
-#message .sentence .p05 {
+#message .sentence .p04 {
     transition-delay: 1.3s;
+}
+
+#message .sentence .p05 {
+    transition-delay: 1.5s;
 }
 
 #course {

@@ -13,9 +13,9 @@ $(function () {
         var anmCount;
         if (direction === 'down') {
             activePoint.find('.anm').css({
-                "opacity": "1"
+                "opacity": "1",
+                "transform": "translateY(0%)"
             });
-            var sectionAnm = activePoint.find('.anm').attr('id');
         } else {
             activePoint.find('.anm').css({
                 "opacity": "0",
