@@ -27,8 +27,6 @@ body {
     font-size: 300px;
     letter-spacing: 10px;
     color: #d6d6d6;
-    opacity: 0;
-    transform: translateY(8%);
     transition: 0.7s;
 }
 
@@ -40,8 +38,6 @@ body {
     /*    width: 1074px;*/
     letter-spacing: 4px;
     color: #333333;
-    opacity: 0;
-    transform: translateY(16%);
     transition: 0.7s;
     transition-delay: 0.2s;
 }
@@ -88,7 +84,7 @@ body {
     font-size: 300px;
     letter-spacing: 10px;
     color: #1a82ff;
-    opacity: 0;
+/*    opacity: 0;*/
     transform: translateY(4%);
     transition: 0.5s;
 }
@@ -110,7 +106,7 @@ body {
     font-weight: 200;
     letter-spacing: 8px;
     text-align: center;
-    opacity: 0;
+/*    opacity: 0;*/
     transform: translateY(30%);
     transition: 0.7s;
 }
