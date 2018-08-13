@@ -216,6 +216,9 @@ body {
 
 #section .sentence span {
     font-size: 140px;
+    opacity: 0;
+    transition: 0.7s;
+    transition-delay: 0.4s;
 }
 
 #section .sentence p {
