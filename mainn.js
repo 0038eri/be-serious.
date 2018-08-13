@@ -7,13 +7,16 @@ $(function () {
         updateHash: false
     });
 
-    // フェードインしながら上へスライド     
-    $('.inviewfadeInUp').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
-        if (isInView) {
-            $(this).stop().addClass('fadeInUp');
-        } else {
-            $(this).stop().removeClass('fadeInUp');
+    $('.animation-box').waypoint(function (direction) {
+        var activePoint = $(this.element);
+        if (direction === 'down') {　 //scroll down
+            activePoint.addClass('active');
+        } else { //scroll up
+            activePoint.removeClass('active');
         }
+    }, {
+        offset: '0%'
     });
-    
+
+
 });
