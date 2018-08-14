@@ -4,7 +4,7 @@ $(function () {
         section: ".content",
         scrollSpeed: 1600,
         scrollbars: false,
-        updateHash: true
+        updateHash: false
     });
 
     var activePoint;
@@ -21,7 +21,7 @@ $(function () {
             });
             activeTrans.css({
                 "transform": "translateY(0%)",
-                "transform": "translateZ(0%)"
+                "transform": "scaleZ(0)"
             })
         } else {
             activeOp.css({
