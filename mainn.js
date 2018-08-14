@@ -20,12 +20,7 @@ $(function () {
                 "opacity": "1",
             });
             activeTrans.css({
-                "transform": "translateY(0%)",
-                "transform": "scaleZ(0)"
-            })
-        } else {
-            activeOp.css({
-                "opacity": "0",
+                "transform": "translateY(0%)"
             });
         }
     }, {
