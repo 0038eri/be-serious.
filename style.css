@@ -164,7 +164,7 @@ body {
     text-align: center;
     vertical-align: middle;
     opacity: 0;
-    transform: translate(-20%,-50%);
+    transform: translate(-50%,-50%);
     transition: 0.7s;
     transition-delay: 0.4s;
 }

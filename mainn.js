@@ -15,12 +15,13 @@ $(function () {
         var anmCount;
         if (direction === 'down') {
             activeOp = activePoint.find('.op');
-            activeTrans=activePoint.find('.trans');
+            activeTrans = activePoint.find('.trans');
             activeOp.css({
                 "opacity": "1",
             });
             activeTrans.css({
-                "transform": "translateY(0%)"
+                "transform": "translateY(0%)",
+                "transform": "translateZ(0%)"
             })
         } else {
             activeOp.css({
