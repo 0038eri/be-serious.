@@ -1,5 +1,6 @@
 $(function () {
 
+    var current;
     $.scrollify({
         section: ".content",
         scrollSpeed: 1600,
@@ -26,5 +27,6 @@ $(function () {
     }, {
         offset: '40%'
     });
+
 
 });
