@@ -158,7 +158,6 @@ body {
 }
 
 #course .color h1 {
-    display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -184,7 +183,6 @@ body {
 }
 
 #course img {
-    display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
