@@ -14,12 +14,12 @@ body {
     font-family: "Din Condensed", "Noto Sans Japanese";
 }
 
-.content{
+.content {
     height: 100vh;
 }
 
 #serious {
-/*    height: 100vh;*/
+    /*    height: 100vh;*/
     text-align: center;
     background-color: #f2f2f2;
 }
@@ -27,7 +27,7 @@ body {
 #serious h1 {
     display: inline-block;
     position: relative;
-    top: 150px;
+    top: 20vh;
     font-size: 300px;
     letter-spacing: 10px;
     color: #d6d6d6;
@@ -41,7 +41,7 @@ body {
     display: inline-block;
     z-index: 80;
     position: relative;
-    top: -160px;
+    top: -20vh;
     /*    width: 1074px;*/
     letter-spacing: 4px;
     color: #333333;
@@ -60,15 +60,17 @@ body {
     display: inline-block;
     position: relative;
     top: 40px;
-    left: 80px;
+    left: 120px;
     font-size: 50px;
-    letter-spacing: 180px;
+    letter-spacing: 200px;
+    text-align: left;
 }
 
 #serious h2.l {
     display: inline-block;
     font-size: 200px;
     letter-spacing: 30px;
+    text-align: left;
 }
 
 #serious h2.s {
@@ -76,12 +78,12 @@ body {
     display: inline-block;
     position: relative;
     left: -40px;
-    bottom: -140px;
+    bottom: -150px;
     font-size: 100px;
 }
 
 #message {
-/*    height: 100vh;*/
+    /*    height: 100vh;*/
     text-align: center;
     background-color: #0062ff;
 }
@@ -89,7 +91,7 @@ body {
 #message h1 {
     display: inline-block;
     position: relative;
-    top: 100px;
+    top: 10vh;
     font-size: 300px;
     letter-spacing: 10px;
     color: #1a82ff;
@@ -102,7 +104,7 @@ body {
 #message .sentence {
     z-index: 80;
     position: relative;
-    top: -200px;
+    top: -20vh;
     max-width: 1510px;
     min-width: 1301px;
     margin: auto;
@@ -110,7 +112,7 @@ body {
     color: #f2f2f2;
 }
 
-#message .sentence h3 {
+#message h3 {
     display: inline-block;
     font-size: 50px;
     font-weight: 200;
@@ -142,7 +144,7 @@ body {
 }
 
 #course {
-/*    height: 100vh;*/
+    /*    height: 100vh;*/
     text-align: center;
     font-family: "rift", sans-serif;
 }
@@ -159,8 +161,8 @@ body {
 
 #course .color h1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50vh;
+    left: 25vw;
     margin: auto;
     font-size: 100px;
     color: #f2f2f2;
@@ -184,8 +186,8 @@ body {
 
 #course img {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50vh;
+    right 50vw;
     width: 300px;
     opacity: 0;
     transform: translate(-50%, -50%);
@@ -194,7 +196,7 @@ body {
 }
 
 #section {
-    width: 100vh;
+    width: 100vw;
     color: #333333;
 }
 
@@ -209,8 +211,8 @@ body {
     display: inline-block;
     z-index: 100;
     position: relative;
-    top: 60px;
-    bottom: 60px;
+    top: 10vh;
+    /*    bottom: 60px;*/
     font-size: 70px;
     font-weight: 500;
     letter-spacing: 10px;
@@ -229,7 +231,7 @@ body {
     display: inline-block;
     z-index: 100;
     position: relative;
-    top: 120px;
+    top: 14vh;
     font-size: 18px;
     font-weight: 300;
     font-family: "Noto Sans Japanese";
@@ -252,7 +254,7 @@ body {
 #section .image img {
     display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
@@ -270,19 +272,19 @@ body {
 }
 
 #section .right h1 {
-    left: 50px;
+    left: 3vw;
 }
 
 #section .left h1 {
-    right: 50px;
+    right: 3vw;
 }
 
 #section .right p {
-    left: 50px;
+    left: 3vw;
 }
 
 #section .left p {
-    right: 50px;
+    right: 3vw;
 }
 
 #section img.sr-img {
@@ -365,76 +367,82 @@ body {
 @media screen and (max-width: 1300px) {
 
     #serious h1 {
-        font-size: 260px;
+        font-size: 250px;
     }
 
     #serious .h2 {
-        top: -130px;
+        top: -14vh;
     }
 
+    #serious .m {}
+
+    #serious h2.m {}
+
+    #serious h2.l {}
+
+    #serious h2.s {}
+
     #message h1 {
-        font-size: 260px;
+        font-size: 250px;
     }
 
     #message .sentence {
-        top: -140px;
-        max-width: 1217px;
+        top: ;
+        max-width: 1300px;
         min-width: 1101px;
     }
 
-    #message .sentence h3 {
-        font-size: 40px;
-        letter-spacing: 5px;
-    }
-
-    #section .sentence h1 {
-        top: 80px;
-        bottom: 70px;
-        font-size: 50px;
-    }
-
-    #section .sentence span {
-        font-size: 110px;
-    }
-
-    #section .sentence p {
-        top: 140px;
-    }
-
-    #section .sentence img {
-        width: 300px;
+    #message h3 {
+        font-size: 34px;
     }
 
     #section .image img {
         width: 500px;
     }
 
-    #section .left h1 {
-        right: 40px
+    #section .sentence h1 {
+        font-size: 60px;
+    }
+
+    #section .sentence span {
+        font-size: 110px;
+    }
+    
+    #section .sentence p{
+        font-size: 17px;
+    }
+    
+    #section .num{
+        width: 300px;
     }
 
     #section .right h1 {
-        left: 40px;
+        left: 2vw;
     }
 
-    #section .left p {
-        right: 40px;
+    #section .left h1 {
+        right: 2vw;
     }
 
     #section .right p {
-        left: 40px;
+        left: 2vw;
     }
 
-    #title h2 {
-        bottom: -790px;
-        font-size: 16px;
+    #section .left p {
+        right: 2vw;
     }
-
+    
+    #title h2{
+        font-size: 17px;
+    }
+    
 }
 
 /* タブレット */
 
 @media screen and (max-width: 1100px) {}
+
+@media screen and (max-width: 700px) {}
 
 
 /* スマートフォン */

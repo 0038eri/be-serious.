@@ -28,35 +28,9 @@ $(function () {
             activeTrans.css({
                 "transform": "translateY(0%)"
             });
-            if (activeContent === "course") {
-                anmBool = true;
-            } else {
-                anmBool = false;
-            }
         }
     }, {
         offset: '40%'
     });
-
-    if (anmBool === true) {
-        setInterval(function () {
-            courseClose();
-            anmCount++;
-            courseOpen();
-        }, 500);
-    }
-
-
-    function courseClose() {
-        $('h1.anm').css({
-            "display": "none"
-        });
-    }
-
-    function courseOpen() {
-        $('h1.anm').eq(anmCount).css({
-            "display": "inline-block"
-        });
-    }
 
 });
