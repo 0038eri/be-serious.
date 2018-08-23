@@ -540,7 +540,7 @@ body {
     }
 
     #section .sentence p {
-        top: 12vh;
+        top: 16vh;
         font-size: 12px;
     }
 
@@ -636,16 +636,43 @@ body {
         font-size: 10px;
     }
 
-    @media screen and (max-width: 400px) {
+}
 
-        #serious h2.m {
-            left: 75px;
-        }
+@media screen and (max-width: 400px) {
 
-        #serious h2.s {
-            left: -36px;
-        }
-
+    #serious h2.m {
+        left: 75px;
     }
 
+    #serious h2.s {
+        left: -36px;
+    }
+
+    #message .sentence {
+        max-width: 400px;
+        min-width: 301px;
+        line-height: 50px;
+    }
+
+    #message h3 {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    
+    #serious h2.l{
+        font-size: 110px;
+    }
+    
+    #serious h2.s{
+        font-size: 40px;
+    }
+    
+    #message h3{
+        font-size: 12px;
+        letter-spacing: inherit;
+    }
 }
