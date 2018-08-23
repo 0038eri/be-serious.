@@ -31,6 +31,7 @@ body {
     font-size: 300px;
     letter-spacing: 10px;
     color: #d6d6d6;
+    text-align: center;
     opacity: 0;
     transform: translateY(8%);
     transition: 0.7s;
@@ -374,6 +375,7 @@ body {
         top: -14vh;
     }
 
+    /*
     #serious .m {}
 
     #serious h2.m {}
@@ -381,7 +383,7 @@ body {
     #serious h2.l {}
 
     #serious h2.s {}
-
+*/
     #message h1 {
         font-size: 250px;
     }
@@ -407,12 +409,12 @@ body {
     #section .sentence span {
         font-size: 110px;
     }
-    
-    #section .sentence p{
+
+    #section .sentence p {
         font-size: 17px;
     }
-    
-    #section .num{
+
+    #section .num {
         width: 300px;
     }
 
@@ -431,20 +433,225 @@ body {
     #section .left p {
         right: 2vw;
     }
-    
-    #title h2{
+
+    #title h2 {
         font-size: 17px;
     }
-    
+
 }
 
 /* タブレット */
 
-@media screen and (max-width: 1100px) {}
+@media screen and (max-width: 1100px) {
 
-@media screen and (max-width: 700px) {}
+    #serious h1 {
+        font-size: 200px;
+    }
+
+    #serious h2.l {
+        font-size: 180px;
+    }
+
+    #serious h2.s {
+        font-size: 80px;
+    }
+
+    #serious h2.m {
+        left: 140px;
+        font-size: 40px;
+        letter-spacing: 180px;
+    }
+
+    #message h1 {
+        font-size: 200px;
+    }
+
+    #message .sentence {
+        top: -120px;
+        max-width: 1100px;
+        min-width: 701px;
+    }
+
+    #message h3 {
+        font-size: 31px;
+    }
+
+    #section .sentence p {
+        font-size: 16px;
+    }
+
+    #section .image img {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #serious h1 {
+        font-size: 150px;
+    }
+
+    #serious .h2 {
+        top: 1vh;
+    }
+
+    #serious .m {
+        width: 450px;
+    }
+
+    #serious h2.m {
+        left: 100px;
+        font-size: 32px;
+        letter-spacing: 160px;
+    }
+
+    #serious h2.l {
+        font-size: 160px;
+    }
+
+    #serious h2.s {
+        font-size: 60px;
+    }
+
+    #message h3 {
+        top: 5vh;
+        font-size: 21px;
+    }
+
+    #message .sentence {
+        top: 5vh;
+        line-height: 70px;
+    }
+
+    #section .sentence h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    #section .sentence span {
+        font-size: 70px;
+    }
+
+    #section .sentence p {
+        top: 12vh;
+        font-size: 12px;
+    }
+
+    #section .image img {
+        width: 300px;
+    }
+
+    #title h2 {
+        bottom: -60vh;
+    }
+
+    /*
+    #section .right h1 {
+        left: 1vw;
+    }
+
+    #section .left h1 {
+        right: 1vw;
+    }
+
+    #section .right p {
+        left: 1vw;
+    }
+
+    #section .left p {
+        right: 1vw;
+    }
+*/
+}
 
 
 /* スマートフォン */
 
-@media screen and (max-width: 500px) {}
+@media screen and (max-width: 500px) {
+
+    #serious h1 {
+        top: 16vh;
+        font-size: 90px;
+    }
+
+    #serious .h2 {
+        top: -6vh;
+    }
+
+    #serious .m {
+        width: 100vw;
+    }
+
+    #serious h2.m {
+        top: 30px;
+        left: 95px;
+        letter-spacing: 130px;
+    }
+
+    #serious h2.l {
+        font-size: 130px;
+    }
+
+    #serious h2.s {
+        left: -60px;
+        bottom: 20px;
+        font-size: 50px;
+    }
+
+    #message h1 {
+        top: 20vh;
+        font-size: 90px;
+    }
+
+    #message .sentence {
+        top: 20vh;
+        max-width: 500px;
+        min-width: 320px;
+        line-height: 60px;
+    }
+
+    #message h3 {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    #section .sentence h1 {
+        font-size: 24px;
+    }
+
+    #section .sentence span {
+        font-size: 40px;
+    }
+
+    #section .sentence p {
+        font-size: 10px;
+    }
+
+    #section .num {
+        width: 50vw;
+    }
+
+    #section .image img {
+        width: 180px;
+    }
+
+    #title h2 {
+        bottom: -94vh;
+        width: 50vw;
+        font-size: 10px;
+    }
+
+    @media screen and (max-width: 500px) {
+
+        #serious h2.m {
+            left: 75px;
+        }
+
+        #serious h2.s {
+            left: -36px;
+        }
+
+    }
+
+}
