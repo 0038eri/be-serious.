@@ -38,14 +38,14 @@ body {
     transition-delay: 0.4s;
 }
 
-#serious .h2{
+#serious .h2 {
     display: inline-block;
     position: relative;
     left: 300px;
     width: 1000px;
 }
 
-#serious .mj{
+#serious .mj {
     display: inline-block;
     position: relative;
     top: -150px;
@@ -54,35 +54,36 @@ body {
     color: #333333;
 }
 
-#serious .m,.j{
+#serious .m,
+.j {
     display: inline-block;
     position: relative;
     width: 200px;
     text-align: center;
 }
 
-#serious .m{
-    left: -40px;
+#serious .m {
+    /*    left: -40px;*/
 }
 
-#serious .j{
-    left: 40px;
+#serious .j {
+    left: 50px;
 }
 
-#serious .mj h2{
+#serious .mj h2 {
     display: inline-block;
     position: relative;
     top: 30px;
     left: 0;
-    font-size: 60px;
+    font-size: 50px;
 }
 
-#serious .mj h3{
+#serious .mj h3 {
     display: inline-block;
     font-size: 200px;
 }
 
-#serious .s{
+#serious .s {
     display: inline-block;
     position: relative;
     top: -200px;
@@ -379,13 +380,13 @@ body {
     #serious h1 {
         font-size: 250px;
     }
-    
+
     #message h1 {
         font-size: 250px;
     }
 
     #message .sentence {
-        top: ;
+        /*        top: ;*/
         max-width: 1300px;
         min-width: 1101px;
     }
@@ -443,30 +444,30 @@ body {
     #serious h1 {
         font-size: 200px;
     }
-    
-    #serious .h2{
+
+    #serious .h2 {
         left: 0;
         width: 900px;
     }
-    
-    #serious .mj{
+
+    #serious .mj {
         top: 0;
         left: 0;
     }
-    
-    #serious .mj h2{
+
+    #serious .mj h2 {
         font-size: 40px;
     }
-    
-    #serious .mj h3{
+
+    #serious .mj h3 {
         font-size: 160px;
     }
-    
-    #serious .j{
-        left: -30px;
+
+    #serious .j {
+        left: -10px;
     }
-    
-    #serious .s{
+
+    #serious .s {
         top: -30px;
         left: -40px;
         font-size: 60px;
@@ -502,13 +503,32 @@ body {
         top: 28vh;
         font-size: 150px;
     }
-    
-    #serious .mj h2{
+
+    #serious .h2 {
+        width: 700px;
+        top: 70px;
+    }
+
+    #serious .mj {
+        width: 410px;
+    }
+
+    #serious .mj h2 {
+        top: -140px;
+        left: 90px;
         font-size: 30px;
     }
 
-    #serious .mj h3{
+    #serious .mj h3 {
         font-size: 140px;
+    }
+
+    #serious .j {
+        left: -40px
+    }
+
+    #serious .s {
+        font-size: 50px;
     }
 
     #message h1 {
@@ -564,6 +584,36 @@ body {
         top: 16vh;
         font-size: 90px;
     }
+    
+    #serious .h2{
+        width: 390px;
+    }
+    
+    #serious .mj{
+        width: 330px;
+    }
+    
+    #serious .m,.j{
+        width: 160px;
+    }
+    
+    #serious .j{
+        left: 0;
+    }
+
+    #serious .mj h2 {
+        top: 30px;
+        left: 0;
+    }
+
+    #serious .mj h3 {
+        font-size: 130px;
+    }
+
+    #serious .s {
+        top: 0px;
+        left: 20px;
+    }
 
     #message h1 {
         top: 20vh;
@@ -611,6 +661,34 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+    
+    #serious .h2{
+        top: 10px;
+        width: 350px;
+    }
+
+    #serious .mj {
+        left: 0px;
+        width: 310px;
+    }
+
+    #serious .m,
+    .j {
+        width: 150px;
+    }
+    
+    #serious .j{
+        left: 0;
+    }
+
+    #serious .mj h2 {
+        top: 30px;
+        left: 0;
+    }
+
+    #serious .s {
+        left: 20px;
+    }
 
     #message .sentence {
         max-width: 400px;
@@ -626,8 +704,40 @@ body {
 }
 
 @media screen and (max-width: 350px) {
-    
-    #message h3{
+
+    #serious .h2 {
+        top: 30px;
+        left: 0;
+        width: 300px;
+    }
+
+    #serious .mj {
+        left: 0px;
+        width: 300px;
+    }
+
+    #serious .m,
+    .j {
+        width: 130px;
+    }
+
+    #serious .mj h2 {
+        top: 20px;
+        left: 0;
+    }
+
+    #serious .mj h3 {
+        font-size: 100px;
+    }
+
+    #serious .j {
+        left: 0;
+    }
+    #serious .s {
+        left: 20px;
+    }
+
+    #message h3 {
         font-size: 12px;
         letter-spacing: inherit;
     }
