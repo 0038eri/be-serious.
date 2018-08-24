@@ -38,49 +38,58 @@ body {
     transition-delay: 0.4s;
 }
 
-#serious .h2 {
+#serious .h2{
     display: inline-block;
-    z-index: 80;
     position: relative;
-    top: -10vh;
-    /*    width: 1074px;*/
-    letter-spacing: 4px;
+    left: 300px;
+    width: 1000px;
+}
+
+#serious .mj{
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    left: -300px;
+    width: 500px;
     color: #333333;
-    opacity: 0;
-    transform: translateY(16%);
-    transition: 0.7s;
-    transition-delay: 0.6s;
 }
 
-#serious .m {
-    float: left;
-    width: 560px;
-}
-
-#serious h2.m {
+#serious .m,.j{
     display: inline-block;
     position: relative;
-    top: 40px;
-    left: 120px;
-    font-size: 50px;
-    letter-spacing: 200px;
-    text-align: left;
+    width: 200px;
+    text-align: center;
 }
 
-#serious h2.l {
+#serious .m{
+    left: -40px;
+}
+
+#serious .j{
+    left: 40px;
+}
+
+#serious .mj h2{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 0;
+    font-size: 60px;
+}
+
+#serious .mj h3{
     display: inline-block;
     font-size: 200px;
-    letter-spacing: 30px;
-    text-align: left;
 }
 
-#serious h2.s {
-    float: right;
+#serious .s{
     display: inline-block;
     position: relative;
-    left: -40px;
-    bottom: -150px;
-    font-size: 100px;
+    top: -200px;
+    left: -240px;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #333;
 }
 
 #message {
@@ -370,20 +379,7 @@ body {
     #serious h1 {
         font-size: 250px;
     }
-
-    #serious .h2 {
-        top: -14vh;
-    }
-
-    /*
-    #serious .m {}
-
-    #serious h2.m {}
-
-    #serious h2.l {}
-
-    #serious h2.s {}
-*/
+    
     #message h1 {
         font-size: 250px;
     }
@@ -447,19 +443,33 @@ body {
     #serious h1 {
         font-size: 200px;
     }
-
-    #serious h2.l {
-        font-size: 180px;
+    
+    #serious .h2{
+        left: 0;
+        width: 900px;
     }
-
-    #serious h2.s {
-        font-size: 80px;
+    
+    #serious .mj{
+        top: 0;
+        left: 0;
     }
-
-    #serious h2.m {
-        left: 140px;
+    
+    #serious .mj h2{
         font-size: 40px;
-        letter-spacing: 180px;
+    }
+    
+    #serious .mj h3{
+        font-size: 160px;
+    }
+    
+    #serious .j{
+        left: -30px;
+    }
+    
+    #serious .s{
+        top: -30px;
+        left: -40px;
+        font-size: 60px;
     }
 
     #message h1 {
@@ -492,30 +502,16 @@ body {
         top: 28vh;
         font-size: 150px;
     }
-
-    #serious .h2 {
-        top: 0;
+    
+    #serious .mj h2{
+        font-size: 30px;
     }
 
-    #serious .m {
-        width: 450px;
+    #serious .mj h3{
+        font-size: 140px;
     }
 
-    #serious h2.m {
-        left: 100px;
-        font-size: 32px;
-        letter-spacing: 160px;
-    }
-
-    #serious h2.l {
-        font-size: 160px;
-    }
-
-    #serious h2.s {
-        font-size: 60px;
-    }
-
-    #message nh1 {
+    #message h1 {
         font-size: 150px;
     }
 
@@ -569,30 +565,6 @@ body {
         font-size: 90px;
     }
 
-    #serious .h2 {
-        top: -6vh;
-    }
-
-    #serious .m {
-        width: 100vw;
-    }
-
-    #serious h2.m {
-        top: 30px;
-        left: 95px;
-        letter-spacing: 130px;
-    }
-
-    #serious h2.l {
-        font-size: 130px;
-    }
-
-    #serious h2.s {
-        left: -60px;
-        bottom: 20px;
-        font-size: 50px;
-    }
-
     #message h1 {
         top: 20vh;
         font-size: 90px;
@@ -640,14 +612,6 @@ body {
 
 @media screen and (max-width: 400px) {
 
-    #serious h2.m {
-        left: 75px;
-    }
-
-    #serious h2.s {
-        left: -36px;
-    }
-
     #message .sentence {
         max-width: 400px;
         min-width: 301px;
@@ -662,14 +626,6 @@ body {
 }
 
 @media screen and (max-width: 350px) {
-    
-    #serious h2.l{
-        font-size: 110px;
-    }
-    
-    #serious h2.s{
-        font-size: 40px;
-    }
     
     #message h3{
         font-size: 12px;
