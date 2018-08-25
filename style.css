@@ -43,6 +43,10 @@ body {
     position: relative;
     left: 0px;
     width: 1000px;
+    opacity: 0;
+    transform: translateY(8%);
+    transition: 0.7s;
+    transition-delay: 0.8s;
 }
 
 #serious .mj {
@@ -63,7 +67,7 @@ body {
 }
 
 #serious .m {
-        left: 0px;
+    left: 0px;
 }
 
 #serious .j {
@@ -339,6 +343,22 @@ body {
     background-color: #dd2cd1;
 }
 
+#experience img.pOne {
+    top: 200px;
+}
+
+#experience img.pTwo {
+    top: 350px;
+}
+
+#experience img.pThree {
+    top: 500px;
+}
+
+#experience img.pFour {
+    top: 650px;
+}
+
 #shine .image {
     background-color: #2cdd3d;
 }
@@ -347,8 +367,54 @@ body {
     color: #2cdd3d;
 }
 
+#shine img.gOne {
+    top: 650px;
+    left: 200px;
+    width: 137.5px;
+    height: 150px;
+}
+
+#shine img.gTwo {
+    top: 575px;
+    left: 350px;
+    width: 137.5px;
+    height: 300px;
+}
+
+#shine img.gThree {
+    top: 500px;
+    left: 500px;
+    width: 137.5px;
+    height: 450px;
+}
+
+#shine img.gFour {
+    top: 425px;
+    left: 650px;
+    width: 137.5px;
+    height: 600px;
+}
+
 #creative h1 span.purple {
     color: #8e2cdb;
+}
+
+#creative img.rOne{
+    top: 390px;
+    left: 560px;
+    width: 400px;
+}
+
+#creative img.rTwo{
+    top: 550px;
+    left: ;
+    width: 400px;
+}
+
+#creative img.rThree{
+    top: 270px;
+    left: 290px;
+    width: 430px;
 }
 
 #creative .image {
@@ -372,6 +438,12 @@ body {
 
 #title h1 span.orange {
     color: #f15a24;
+}
+
+#title img.kiran{
+    top: 300px;
+    left: 700px;
+    width: 100px;
 }
 
 
@@ -584,20 +656,21 @@ body {
         top: 16vh;
         font-size: 90px;
     }
-    
-    #serious .h2{
+
+    #serious .h2 {
         width: 390px;
     }
-    
-    #serious .mj{
+
+    #serious .mj {
         width: 330px;
     }
-    
-    #serious .m,.j{
+
+    #serious .m,
+    .j {
         width: 160px;
     }
-    
-    #serious .j{
+
+    #serious .j {
         left: 0;
     }
 
@@ -661,8 +734,8 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-    
-    #serious .h2{
+
+    #serious .h2 {
         top: 10px;
         width: 350px;
     }
@@ -676,8 +749,8 @@ body {
     .j {
         width: 150px;
     }
-    
-    #serious .j{
+
+    #serious .j {
         left: 0;
     }
 

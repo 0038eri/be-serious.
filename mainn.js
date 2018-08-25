@@ -12,7 +12,6 @@ $(function () {
     var activeOp;
     var activeTrans;
     var activeAnm;
-    var activeContent;
     var anmBool = false;
     var anmCount = 0;
     $('.content').waypoint(function (direction) {
@@ -21,7 +20,6 @@ $(function () {
             activeOp = activePoint.find('.op');
             activeTrans = activePoint.find('.trans');
             activeAnm = activePoint.find('.anm');
-            activeContent = activePoint.prop('id');
             activeOp.css({
                 "opacity": "1",
             });
