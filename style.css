@@ -11,7 +11,7 @@
 html,
 body {
     width: 100%;
-    font-family: "Din Condensed", "Noto Sans Japanese";
+    font-family: "Din Condensed", "YuGothic";
 }
 
 .content {
@@ -159,9 +159,9 @@ body {
 }
 
 #course {
-/*        height: 100vh;*/
+    /*        height: 100vh;*/
     text-align: center;
-    font-family: "rift", sans-serif;
+/*    font-family: "rift", sans-serif;*/
 }
 
 #course .color {
@@ -249,7 +249,7 @@ body {
     top: 14vh;
     font-size: 18px;
     font-weight: 300;
-    font-family: "Noto Sans Japanese";
+    font-family: "YuGothic";
 }
 
 #section .num {
@@ -399,19 +399,19 @@ body {
     color: #8e2cdb;
 }
 
-#creative img.rOne{
+#creative img.rOne {
     top: 390px;
     left: 560px;
     width: 400px;
 }
 
-#creative img.rTwo{
+#creative img.rTwo {
     top: 550px;
     left: ;
     width: 400px;
 }
 
-#creative img.rThree{
+#creative img.rThree {
     top: 270px;
     left: 290px;
     width: 430px;
@@ -430,7 +430,7 @@ body {
     bottom: -90vh;
     text-align: center;
     font-size: 20px;
-    font-family: "Noto Sans Japanese";
+/*    font-family: "Noto Sans Japanese";*/
     font-weight: 300;
     letter-spacing: 2px;
     color: #f2f2f2;
@@ -440,7 +440,7 @@ body {
     color: #f15a24;
 }
 
-#title img.kiran{
+#title img.kiran {
     top: 300px;
     left: 700px;
     width: 100px;
