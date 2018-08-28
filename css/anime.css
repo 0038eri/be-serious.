@@ -1,0 +1,88 @@
+#course .colorAnm {
+    background-color: #f2f2f2;
+    animation: backgroundColor-animation 10s forwards;
+}
+
+@keyframes backgroundColor-animation {
+    0% {
+        background-color: #2c74dd;
+    }
+    20% {
+        background-color: #2c74dd;
+    }
+    25% {
+        background-color: #f2f2f2;
+    }
+    30% {
+        background-color: #81d630;
+    }
+    50% {
+        background-color: #81d630;
+    }
+    55% {
+        background-color: #f2f2f2;
+    }
+    60% {
+        background-color: #e02b2b;
+    }
+    80% {
+        background-color: #e02b2b;
+    }
+    85% {
+        background-color: #f2f2f2;
+    }
+    90% {
+        background-color: #e0d62b;
+    }
+    100%{
+        background-color: #e0d62b;
+    }
+}
+
+.iphone-text {
+    animation-name: iphoneText-animation;
+}
+
+@keyframes iphoneText-animation {}
+
+.iphone-img {
+    animation-name: iphoneImage-animation;
+}
+
+@keyframes iphoneImage-animation {}
+
+.android-text {
+    animation-name: androidText-animation;
+}
+
+@keyframes androidText-animation {}
+
+.andoroid-img {
+    animation-name: androidImage-animation;
+}
+
+@keyframes androidImage-animation {}
+
+.game-text {
+    animation-name: gameText-animation;
+}
+
+@keyframes gameText-animation {}
+
+.game-img {
+    animation-name: gameImage-animation;
+}
+
+@keyframes gameImage-animation {}
+
+.web-text {
+    animation-name: webText-animation;
+}
+
+@keyframes webText-animation {}
+
+.web-img {
+    animation-name: webImage-animation;
+}
+
+@keyframes webImage-animation {}
