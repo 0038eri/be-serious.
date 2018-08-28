@@ -144,7 +144,7 @@
         opacity: 1;
     }
     70%{
-        display: 1;
+        opacity: 1;
     }
     75%{
         display: none;
