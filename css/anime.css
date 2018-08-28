@@ -39,50 +39,170 @@
     }
 }
 
-.iphone-text {
-    animation-name: iphoneText-animation;
+.iphoneText-animation {
+    animation: iphoneText-animation 10s forwards;
 }
 
-@keyframes iphoneText-animation {}
-
-.iphone-img {
-    animation-name: iphoneImage-animation;
+@keyframes iphoneText-animation {
+    0%{
+        display: none;
+        opacity: 0;
+    }
+    5%{
+        display: inline-block;
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    15%{
+        display: none;
+        opacity: 0;
+    }
 }
 
-@keyframes iphoneImage-animation {}
-
-.android-text {
-    animation-name: androidText-animation;
+.iphoneImg-animation {
+    animation: iphoneImage-animation 10s forwards;
 }
 
-@keyframes androidText-animation {}
-
-.andoroid-img {
-    animation-name: androidImage-animation;
+@keyframes iphoneImage-animation {
+    0%{
+        display: none;
+        opacity: 0;
+    }
+    5%{
+        opacity: 0;
+    }    
+    10%{
+        display: inline-block;
+        opacity: 1;
+    }
+    15%{
+        opacity: 1;
+    }
+    20%{
+        display: none;
+        opacity: 0;
+    }
 }
 
-@keyframes androidImage-animation {}
-
-.game-text {
-    animation-name: gameText-animation;
+.androidText-animation {
+    animation: androidText-animation 10s forwards;
 }
 
-@keyframes gameText-animation {}
-
-.game-img {
-    animation-name: gameImage-animation;
+@keyframes androidText-animation {
+    30%{
+        display: none;
+        opacity: 0;
+    }
+    35%{
+        display: inline-block;
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    45%{
+        display: none;
+        opacity: 0;
+    }
 }
 
-@keyframes gameImage-animation {}
-
-.web-text {
-    animation-name: webText-animation;
+.androidImg-animation {
+    animation: androidImage-animation 10s forwards;
 }
 
-@keyframes webText-animation {}
-
-.web-img {
-    animation-name: webImage-animation;
+@keyframes androidImage-animation {
+    35%{
+        display: none;
+        opacity: 0;
+    }
+    40%{
+        display: inline-block;
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        display: none;
+        opacity: 0;
+    }
 }
 
-@keyframes webImage-animation {}
+.gameText-animation {
+    animation: gameText-animation 10s forwards;
+}
+
+@keyframes gameText-animation {
+    60%{
+        display: none;
+        opacity: 0;
+    }
+    65%{
+        display: inline-block;
+        opacity: 1;
+    }
+    70%{
+        display: 1;
+    }
+    75%{
+        display: none;
+        opacity: 0;
+    }
+}
+
+.gameImg-animation {
+    animation: gameImage-animation 10s forwards;
+}
+
+@keyframes gameImage-animation {
+    65%{
+        display: none;
+        opacity: 0;
+    }
+    70%{
+        display: inline-block;
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    80%{
+        display: none;
+        opacity: 0;
+    }
+}
+
+.webText-animation {
+    animation: webText-animation 10s forwards;
+}
+
+@keyframes webText-animation {
+    90%{
+        display: none;
+        opacity: 0;
+    }
+    95%{
+        display: inline-block;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.webImg-animation {
+    animation: webImage-animation 10s forwards;
+}
+
+@keyframes webImage-animation {
+    95%{
+        display: none;
+        opacity: 0;
+    }
+    100%{
+        display: inline-block;
+        opacity: 1;
+    }
+}
