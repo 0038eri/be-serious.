@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "DIN Condensed";
+    src: local("./fonts/Din Font") url('./fonts//DIN Condensed Bold');
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.content {
+    height: 100vh;
+}
+
+#serious {
+    overflow: hidden;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+#serious h1 {
+    display: inline-block;
+    position: relative;
+    top: 20vh;
+    font-size: 300px;
+    font-family: "Din Condensed";
+    letter-spacing: 10px;
+    text-align: center;
+    color: #d6d6d6;
+    opacity: 0;
+    transform: translateY(8%);
+    transition: 0.7s;
+    transition-delay: 0.4s;
+}
+
+#serious .maji {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    width: 1000px;
+    font-weight: bold;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    opacity: 0;
+    transform: translateY(8%);
+    transition: 0.7s;
+    transition-delay: 0.8s;
+}
+
+#serious .maji .mj {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    color: #333333;
+}
+
+#serious .maji .mj .m,
+.maji .mj .j {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+#serious .maji .mj .m {
+    left: 0px;
+}
+
+#serious .maji .mj .j {
+    left: 50px;
+}
+
+#serious .maji .mj h2 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    font-size: 50px;
+}
+
+#serious .maji .mj h3 {
+    display: inline-block;
+    font-size: 200px;
+}
+
+#serious .maji h4 {
+    display: inline-block;
+    position: relative;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #333;
+}
+
+#message {
+    text-align: center;
+    background-color: #0062ff;
+}
+
+#message h1 {
+    display: inline-block;
+    position: relative;
+    top: 10vh;
+    font-size: 300px;
+    font-family: "Din Condensed";
+    letter-spacing: 10px;
+    color: #1a82ff;
+    opacity: 0;
+    transform: translateY(4%);
+    transition: 0.7s;
+    transition-delay: 0.4s;
+}
+
+#message .sentence {
+    z-index: 80;
+    position: relative;
+    top: -10vh;
+    margin: auto;
+    max-width: 1510px;
+    min-width: 1301px;
+    line-height: 100px;
+    color: #f2f2f2;
+}
+
+#message .sentence h3 {
+    display: inline-block;
+    font-size: 44px;
+    font-weight: 100;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    letter-spacing: 8px;
+    text-align: center;
+    color: #f2f2f2;
+    opacity: 0;
+    transform: translateY(30%);
+    transition: 0.7s;
+}
+
+#course {
+    text-align: center;
+}
+
+#course .color {
+    float: left;
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+}
+
+#course .color h1 {
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    margin: auto;
+    font-size: 100px;
+    font-family: "Din Condensed";
+    letter-spacing: 4px;
+    text-align: center;
+    vertical-align: middle;
+    color: #f2f2f2;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+#course .image {
+    float: right;
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+#course img {
+    position: absolute;
+    top: 50vh;
+    width: 300px;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+#course img.game-img,
+#course img.web-img {
+    width: 500px;
+}
+
+#message .sentence .l1 {
+    transition-delay: 0.7s;
+}
+
+#message .sentence .l2 {
+    transition-delay: 0.9s;
+}
+
+#message .sentence .l3 {
+    transition-delay: 1.1s;
+}
+
+#message .sentence .l4 {
+    transition-delay: 1.3s;
+}
+
+#message .sentence .l5 {
+    transition-delay: 1.5s;
+}
+
+#section {
+    width: 100vw;
+    color: #333333;
+}
+
+#section .sentence {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+#section .sentence h1 {
+    display: inline-block;
+    z-index: 100;
+    position: relative;
+    top: 10vh;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    letter-spacing: 10px;
+}
+
+#section .sentence span {
+    display: inline-block;
+    font-size: 140px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(10%);
+    transition: 0.7s;
+    transition-delay: 0.4s;
+}
+
+#section .sentence p {
+    display: inline-block;
+    z-index: 100;
+    position: relative;
+    top: 14vh;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#section img.num {
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+}
+
+#section img.sr-img {
+    right: 0;
+}
+
+#section img.sl-img {
+    left: 0;
+}
+
+#section .image {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+}
+
+#section .image img {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 600px;
+}
+
+#section .right {
+    float: right;
+    text-align: left;
+}
+
+#section .left {
+    float: left;
+    text-align: right;
+}
+
+#section .right h1 {
+    left: 3vw;
+}
+
+#section .left h1 {
+    right: 3vw;
+}
+
+#section .right p {
+    left: 3vw;
+}
+
+#section .left p {
+    right: 3vw;
+}
+
+#section .clear {
+    clear: both;
+}
+
+#experience {
+    position: relative;
+    width: 100vw;
+}
+
+#shine {
+    position: relative;
+    width: 100vw;
+}
+
+#creative {
+    position: relative;
+    width: 100vw;
+}
+
+#title {
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+}
+
+#experience h1 span.pink {
+    color: #dd2cd1;
+}
+
+#experience .image {
+    background-color: #dd2cd1;
+}
+
+#experience .exImg{}
+
+#shine .image {
+    background-color: #2cdd3d;
+}
+
+#shine h1 span.green {
+    color: #2cdd3d;
+}
+
+#creative h1 span.purple {
+    color: #8e2cdb;
+}
+
+#creative .image {
+    background-color: #8e2cdb;
+}
+
+#title .image {
+    background-color: #f15a24;
+}
+
+#title h2 {
+    position: relative;
+    bottom: -90vh;
+    font-size: 20px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+#title h1 span.orange {
+    color: #f15a24;
+}

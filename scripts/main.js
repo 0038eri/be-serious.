@@ -21,13 +21,20 @@ $(function () {
     var gameImgAnm;
     var webTextAnm;
     var webImgAnm;
+    var experience1;
+    var experience2;
+    var experience3;
+    var experience4;
+    var shineAnm;
+    var creativeAnm;
+    var titleAnm;
     $('.content').waypoint(function (direction) {
         activePoint = $(this.element);
         if (direction === 'down') {
             activeOp = activePoint.find('.op');
             activeTrans = activePoint.find('.trans');
             activeAnm = activePoint.find('.anm');
-            bgAnm = activePoint.find('.bgColor');
+            bgAnm = activePoint.find('.color');
             iphoneTextAnm = activePoint.find('.iphone-text');
             iphoneImgAnm = activePoint.find('.iphone-img');
             androidTextAnm = activePoint.find('.android-text');
@@ -36,6 +43,13 @@ $(function () {
             gameImgAnm = activePoint.find('.game-img');
             webTextAnm = activePoint.find('.web-text');
             webImgAnm = activePoint.find('.web-img');
+            experience1 = activePoint.find('.pOne');
+            experience2 = activePoint.find('.pTwo');
+            experience3 = activePoint.find('.pThree');
+            experience4 = activePoint.find('.pFour');
+            shineAnm = activePoint.find('.shine-img');
+            creativeAnm = activePoint.find('.creative-img');
+            titleAnm - activePoint.find('.title-img');
             activeOp.css({
                 "opacity": "1",
             });
