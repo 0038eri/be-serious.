@@ -273,18 +273,25 @@ body {
 #section .image img {
     display: inline-block;
     position: absolute;
-    left: 0;
     width: 600px;
 }
 
-#section .right {
+#section .sentenceRight{
     float: right;
     text-align: left;
 }
 
-#section .left {
+#section .imgRight{
+    float: right;
+}
+
+#section .sentenceLeft{
     float: left;
     text-align: right;
+}
+
+#section .imgLeft{
+    float: left;
 }
 
 #section .right h1 {
@@ -304,6 +311,7 @@ body {
 }
 
 #section .clear {
+    float: none;
     clear: both;
 }
 
@@ -312,9 +320,17 @@ body {
     width: 100vw;
 }
 
+#experience img.ex{
+    transform: translate(20%,100%);
+}
+
 #shine {
     position: relative;
     width: 100vw;
+}
+
+#shine img.sh{
+    transform: translate(90%,100%);
 }
 
 #creative {
@@ -322,10 +338,18 @@ body {
     width: 100vw;
 }
 
+#creative img.cr{
+    transform: translate(20%,100%);
+}
+
 #title {
     overflow: hidden;
     position: relative;
     width: 100vw;
+}
+
+#title img.ti{
+    transform: translate(20%,100%);
 }
 
 #experience h1 span.pink {
@@ -336,7 +360,6 @@ body {
     background-color: #dd2cd1;
 }
 
-#experience .exImg{}
 
 #shine .image {
     background-color: #2cdd3d;
@@ -359,8 +382,9 @@ body {
 }
 
 #title h2 {
-    position: relative;
-    bottom: -90vh;
+    position: absolute;
+    left: 10%;
+    bottom: 4vh;
     font-size: 20px;
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
     font-weight: 300;
