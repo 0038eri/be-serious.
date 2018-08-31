@@ -1,3 +1,5 @@
+/* 基本のCSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -121,7 +123,7 @@ body {
     top: -10vh;
     margin: auto;
     max-width: 1510px;
-    min-width: 1301px;
+    min-width: 1401px;
     line-height: 100px;
     color: #f2f2f2;
 }
@@ -276,21 +278,21 @@ body {
     width: 600px;
 }
 
-#section .sentenceRight{
+#section .sentenceRight {
     float: right;
     text-align: left;
 }
 
-#section .imgRight{
+#section .imgRight {
     float: right;
 }
 
-#section .sentenceLeft{
+#section .sentenceLeft {
     float: left;
     text-align: right;
 }
 
-#section .imgLeft{
+#section .imgLeft {
     float: left;
 }
 
@@ -320,8 +322,9 @@ body {
     width: 100vw;
 }
 
-#experience img.ex{
-    transform: translate(20%,100%);
+#experience img.ex {
+    opacity: 0;
+    transform: translate(0%, 100%);
 }
 
 #shine {
@@ -329,8 +332,9 @@ body {
     width: 100vw;
 }
 
-#shine img.sh{
-    transform: translate(90%,100%);
+#shine img.sh {
+    transform: translate(90%, 0%) scaleY(0);
+    transform-origin: bottom;
 }
 
 #creative {
@@ -338,8 +342,9 @@ body {
     width: 100vw;
 }
 
-#creative img.cr{
-    transform: translate(20%,100%);
+#creative img.cr {
+    opacity: 0;
+    transform: translate(20%, 100%);
 }
 
 #title {
@@ -348,8 +353,8 @@ body {
     width: 100vw;
 }
 
-#title img.ti{
-    transform: translate(20%,100%);
+#title img.ti {
+    transform: translate(20%, 100%);
 }
 
 #experience h1 span.pink {
