@@ -333,6 +333,7 @@ body {
 }
 
 #shine img.sh {
+    width: 137.5px;
     transform: translate(90%, 0%) scaleY(0);
     transform-origin: bottom;
 }

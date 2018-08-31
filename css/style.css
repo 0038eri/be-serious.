@@ -19,28 +19,28 @@
 #shine img.shOne {
     top: 400px;
     left: 0;
-    width: 137.5px;
+    /*    width: 137.5px;*/
     height: 150px;
 }
 
 #shine img.shTwo {
     top: 100px;
     left: 150px;
-    width: 137.5px;
+    /*    width: 137.5px;*/
     height: 300px;
 }
 
 #shine img.shThree {
     top: -200px;
     left: 300px;
-    width: 137.5px;
+    /*    width: 137.5px;*/
     height: 450px;
 }
 
 #shine img.shFour {
     top: -500px;
     left: 450px;
-    width: 137.5px;
+    /*    width: 137.5px;*/
     height: 600px;
 }
 
@@ -64,6 +64,7 @@
 
 #title img.ti0 {
     top: -170px;
+    width: 600px;
     opacity: 0;
 }
 
@@ -74,8 +75,88 @@
     transform: scale(0);
 }
 
-@media screen and (max-width: 1300px){
-    #experience img.ex{
-        width: 500px;
+@media screen and (max-width: 1300px) {
+
+    #experience img.ex {
+        left: -20px;
+        width: 400px;
     }
+
+    #experience img.exOne {
+        top: 380px;
+    }
+
+    #experience img.exTwo {
+        top: 280px;
+    }
+
+    #experience img.exThree {
+        top: 180px;
+    }
+
+    #experience img.exFour {
+        top: 80px;
+    }
+
+    #shine img.sh {
+        width: 91.667px;
+    }
+
+    #shine img.shOne {
+        top: 350px;
+        left: -30px;
+        height: 100px;
+    }
+
+    #shine img.shTwo {
+        top: 150px;
+        left: 70px;
+        height: 200px;
+    }
+
+    #shine img.shThree {
+        top: -50px;
+        left: 170px;
+        height: 300px;
+    }
+
+    #shine img.shFour {
+        top: -250px;
+        left: 270px;
+        height: 400px;
+    }
+
+    #creative img.crOne {
+        top: -100px;
+        left: 150px;
+        width: 270px;
+    }
+
+    #creative img.crTwo {
+        top: 0;
+        left: 50px;
+        width: 300px;
+    }
+
+    #creative img.crThree {
+        top: -150px;
+        left: -20px;
+        width: 320px;
+    }
+    
+    #title img.ti0{
+        top: 0;
+        left: -20px;
+        width: 400px;
+    }
+    
+    #title img.kiran{
+        top: 130px;
+        left: 370px;
+    }
+
+    #title h2 {
+        left: 0.5%;
+    }
+
 }
