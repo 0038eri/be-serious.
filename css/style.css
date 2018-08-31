@@ -143,14 +143,14 @@
         left: -20px;
         width: 320px;
     }
-    
-    #title img.ti0{
+
+    #title img.ti0 {
         top: 0;
         left: -20px;
         width: 400px;
     }
-    
-    #title img.kiran{
+
+    #title img.kiran {
         top: 130px;
         left: 370px;
     }
@@ -159,4 +159,167 @@
         left: 0.5%;
     }
 
+}
+
+@media screen and (max-width: 800px) {
+
+    #experience img.ex {
+        width: 300px;
+    }
+
+    #experience img.exOne {
+        top: 470px;
+    }
+
+    #experience img.exTwo {
+        top: 390px;
+    }
+
+    #experience img.exThree {
+        top: 310px;
+    }
+
+    #experience img.exFour {
+        top: 230px;
+    }
+
+    #shine img.sh {
+        width: 68.75px;
+    }
+
+    #shine img.shOne {
+        top: 400px;
+        left: -20px;
+        height: 75px;
+    }
+
+    #shine img.shTwo {
+        top: 250px;
+        left: 60px;
+        height: 150px;
+    }
+
+    #shine img.shThree {
+        top: 100px;
+        left: 140px;
+        height: 225px;
+    }
+
+    #shine img.shFour {
+        top: -50px;
+        left: 220px;
+        height: 300px;
+    }
+
+    #creative img.crOne {
+        top: 180px;
+        left: 150px;
+        width: 170px;
+    }
+
+    #creative img.crTwo {
+        top: 200px;
+        left: 50px;
+        width: 200px;
+    }
+
+    #creative img.crThree {
+        top: 100px;
+        left: -10px;
+        width: 220px;
+    }
+
+    #title img.ti0 {
+        top: 100px;
+        width: 300px;
+    }
+
+    #title img.kiran {
+        top: 160px;
+        left: 250px;
+    }
+
+    #title h2 {
+        left: 1.5%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    #experience img.ex {
+        left: -10px;
+        width: 160px;
+    }
+
+    #experience img.ex {
+        width: 160px;
+    }
+
+    #experience img.exOne {
+        top: 330px;
+    }
+
+    #experience img.exTwo {
+        top: 290px;
+    }
+
+    #experience img.exThree {
+        top: 250px;
+    }
+
+    #experience img.exFour {
+        top: 210px;
+    }
+    
+    #shine img.sh {
+        width: 45.833px;
+    }
+    
+    #shine img.shOne {
+        top: 300px;
+        left: -40px;
+        height: 50px;
+    }
+
+    #shine img.shTwo {
+        top: 200px;
+        left: 10px;
+        height: 100px;
+    }
+
+    #shine img.shThree {
+        top: 100px;
+        left: 60px;
+        height: 150px;
+    }
+
+    #shine img.shFour {
+        top: 0px;
+        left: 110px;
+        height: 200px;
+    }
+    
+    #creative img.crOne {
+        top: 160px;
+        left: 80px;
+        width: 100px;
+    }
+
+    #creative img.crTwo {
+        top: 200px;
+        left: 30px;
+        width: 100px;
+    }
+
+    #creative img.crThree {
+        top: 130px;
+        left: 0px;
+        width: 120px;
+    }
+    
+    #title h2{
+        width: ;
+    }
+    
 }

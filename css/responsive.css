@@ -145,6 +145,10 @@
     #section .sentence p {
         font-size: 11px;
     }
+    
+    #title h2{
+        font-size: 14px;
+    }
 
 }
 
