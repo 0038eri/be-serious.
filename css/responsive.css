@@ -43,17 +43,234 @@
         font-size: 220px;
     }
 
+    #message .sentence {
+        max-width: 1100px;
+        min-width: 801px;
+    }
+
+    #course .color h1 {
+        font-size: 80px;
+    }
+
     #course img.game-img,
     #course img.web-img {
         width: 400px;
     }
 
+    #section .sentence h1 {
+        top: 10vh;
+    }
+
     #section .sentence p {
-        font-size: 16px;
+        top: 15vh;
+        font-size: 15px;
+    }
+
+    #section .right h1 {
+        left: 2vw;
+    }
+
+    #section .left h1 {
+        right: 2vw;
+    }
+
+    #section .right p {
+        left: 2vw;
+    }
+
+    #section .left p {
+        right: 2vw;
     }
 
 }
 
 @media screen and (max-width: 800px) {
+
+    #serious .maji {
+        width: 740px;
+    }
+
+    #serious .maji .mj {
+        width: 400px;
+    }
+
+    #serious .maji .mj .m,
+    .maji .mj .j {
+        width: 180px;
+    }
+
+    #serious .maji .mj .j {
+        left: 0;
+    }
+
+    #serious .maji .mj h2 {
+        font-size: 40px;
+    }
+
+    #serious .maji .mj h3 {
+        font-size: 160px;
+    }
+
+    #serious .maji h4 {
+        font-size: 60px;
+    }
+
+    #message .sentence {
+        max-width: 800px;
+        min-width: 501px;
+    }
+
+    #message .sentence h3 {
+        font-size: 32px;
+    }
+
+    #course .color h1 {
+        font-size: 60px;
+    }
+
+    #course img.game-img,
+    #course img.web-img {
+        width: 300px;
+    }
+
+    #section .sentence h1 {
+        font-size: 50px;
+        letter-spacing: 4px;
+    }
+
+    #section .sentence span {
+        font-size: 80px;
+    }
+
+    #section .sentence p {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #serious h1 {
+        font-size: 70px;
+    }
+
+    #serious .maji {
+        width: 410px;
+    }
+
+    #serious .maji h4 {
+        left: 10px;
+    }
+
+    #message h1 {
+        font-size: 70px;
+    }
+
+    #message .sentence {
+        max-width: 500px;
+        min-width: 401px;
+    }
+
+    #message .sentence h3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    #course .color h1 {
+        font-size: 30px;
+    }
+
+    #course img {
+        width: 170px;
+    }
+
+    #course img.game-img,
+    #course img.web-img {
+        width: 190px;
+    }
+
+    #section .sentence h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    #section .sentence span {
+        font-size: 50px;
+    }
+
+    #section .sentence p {
+        width: 190px;
+    }
+
+    #section img.num {
+        width: 50vw;
+    }
+
+    #section .right h1 {
+        left: 1vw;
+    }
+
+    #section .left h1 {
+        right: 1vw;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    #serious h1 {
+        font-size: 60px;
+    }
+
+    #serious .maji {
+        width: 360px;
+    }
+
+    #serious .maji .mj {
+        width: 350px;
+    }
+
+    #serious .maji .mj .m,
+    .maji .mj .j {
+        width: 150px;
+    }
+
+    #serious .maji .mj h3 {
+        font-size: 140px;
+    }
+
+    #message h1 {
+        font-size: 60px;
+    }
+
+    #message .sentence {
+        max-width: 400px;
+        min-width: 300px;
+    }
+
+    #message .sentence h3 {
+        font-size: 18px;
+    }
+
+    #course img {
+        width: 150px;
+    }
+
+    #course img.game-img,
+    #course img.web-img {
+        width: 170px;
+    }
     
+    #section .sentence h1{
+        font-size: 26px;
+    }
+    
+    #section .sentence span{
+        font-size: 44px;
+    }
+    
+    #section .sentence p{
+        width: 170px;
+    }
+
 }
