@@ -43,6 +43,11 @@
         font-size: 220px;
     }
 
+    #course img.game-img,
+    #course img.web-img {
+        width: 400px;
+    }
+
     #section .sentence p {
         font-size: 16px;
     }
