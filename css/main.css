@@ -200,14 +200,14 @@ body {
 #course img {
     position: absolute;
     top: 50vh;
-    width: 300px;
+    width: 20vw;
     opacity: 0;
     transform: translate(-50%, -50%);
 }
 
 #course img.game-img,
 #course img.web-img {
-    width: 500px;
+    width: 30vw;
 }
 
 #section {
