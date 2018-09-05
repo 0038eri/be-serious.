@@ -249,8 +249,8 @@ body {
     position: relative;
     top: 14vh;
     font-size: 18px;
-    font-weight: 300;
-    font-family:  'メイリオ', Meiryo, sans-serif;
+    font-weight: 100;
+    font-family: 'メイリオ', Meiryo, sans-serif;
 }
 
 #section img.num {

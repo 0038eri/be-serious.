@@ -152,11 +152,12 @@
 @media screen and (max-width: 500px) {
 
     #serious h1 {
+        top: 10vh;
         font-size: 70px;
     }
 
     #serious .maji {
-        top: 120px;
+        top: 50px;
         width: 410px;
     }
 
